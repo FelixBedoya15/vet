@@ -1,0 +1,189 @@
+{
+    "gestion-camas": {
+		"attention_places":{
+			"NO_DATA": "No hay lugares de atención para mostrar",
+			"NO_DATA_FOR_FILTER": "No se encontraron resultados para los filtros aplicados.<br>Intentá modificar los criterios de búsqueda",
+			"NO_SELECTED_SPACE": "Seleccione un lugar para ver el detalle",
+			"NO_ASSOCIATED_SPECIALTY": "Sin servicio asociado",
+			"SUMMARY_RESULTS": "Resumen de resultados:",
+			"place": {
+				"DOCTOR_OFFICES": "Consultorios",
+				"SHOCKROOMS": "Shockrooms",
+                "BED": "Habitación",
+				"BEDS": "Camas",
+                "DOCTOR_OFFICE": "Consultorio",
+				"SHOCKROOM": "Shockroom"
+			},
+            "place-state": {
+                "AVAILABLE": "Libre",
+                "NOT_AVAILABLE": "Ocupada",
+                "BLOCKED": "Bloqueada"
+            },
+			"filters": {
+				"TITLE": "Filtrar por",
+				"CLEAN_FILTERS": "Limpiar filtros",
+				"SECTOR": "Sector",
+				"SECTOR_PLACEHOLDER": "Seleccione un sector",
+				"SERVICE": "Servicio",
+				"SERVICE_PLACEHOLDER": "Seleccione un servicio",
+				"HIERARCHICAL_UNIT": "Unidad jerárquica",
+				"HIERARCHICAL_UNIT_PLACEHOLDER": "Seleccione unidad",
+				"PLACE_TYPE": "Tipo",
+				"PLACE_STATE": "Estado del lugar",
+				"BED_STATE": "Estado de cama",
+				"room_status": {
+					"TITLE": "Estado de habitación",
+					"FULL": "Ocupada",
+					"AVAILABLE": "Disponible"
+				},
+				"PATIENT": "Paciente",
+				"IDENTIFICATION_TYPE": "Tipo de documento",
+				"VIEW_ONLY_EMERGENCY_CARE_TEMPORAL_PATIENTS": "Ver sólo pacientes temporales de guardia"
+			}
+		},
+        "home": {
+            "TITLE": "Gestión de camas",
+            "SUBTITLE": "Filtrar por",
+            "NO_FILTERED_BEDS": "No hay resultados para la búsqueda seleccionada",
+            "RESULTS": "Resultado: {{bedsAmount}} camas encontradas"
+        },
+        "detail": {
+            "TITLE": "Detalle de cama",
+            "BED_TITLE": "Cama {{bedNumber}}",
+            "NO_BED": "Seleccione una cama para ver el detalle",
+            "SPECIALTY": "Especialidad",
+            "SECTOR": "Sector",
+            "CATEGORY": "Categoría",
+            "ROOM": "Habitación",
+            "PATIENT": "Paciente:",
+            "PROBABLE_DISCHARGE_DATE": "Fecha de alta probable: ",
+            "NO_DISCHARGE_DATE": "Sin información",
+            "FREE": "Libre",
+            "NOT_FREE": "Ocupada",
+            "BLOCK": "Bloqueado",
+            "INCHARGE_NURSE": "Enfermero a cargo:",
+            "NURSE_DNI": "DNI: {{nurseDni}}",
+			"SOURCE": "Origen: ",
+			"NO_SOURCE": "Sin origen definido",
+            "more-actions": {
+                "NURSE_ASSIGN": "Asignar enfermero a cargo",
+                "NURSE_EDIT_ASSIGN": "Editar enfermero a cargo",
+                "DELETE_NURSE": "Eliminar enfermero a cargo",
+                "INCHARGE_NURSE": "Enfermero a cargo",
+                "SUBTITLE": "Ingrese los siguientes datos para asignar un enfermero a la cama {{bed}}",
+                "CANCEL": "Cancelar",
+                "SAVE": "Guardar",
+                "ASSIGN_SUCCESS": "Enfermero asignado existosamente",
+                "NO_NURSES_AVAILABLE": "No hay enfermeros habilitados",
+                "DELETED_NURSE": "Se ha eliminado exitosamente la asignación de  enfermero a cargo",
+                "physical-discarge": {
+                    "DESCRIPTION_ACTION": "Si realiza el Alta Física la cama quedará Libre y el episodio continuará abierto hasta que se completen los documentos necesarios.",
+                    "QUESTION_ACTION": "¿Desea confirmar el Alta Física?",
+                    "PHYSICAL_DISCHARGE_ERROR": "No se pudo dar el alta física del paciente",
+				    "PHYSICAL_DISCHARGE_SUCCESS": "El alta física se guardó exitosamente"
+                }
+            },
+            "interment-detail": {
+                "NO_INFORMATION":"Sin información",
+                "ENTRANCE": "Ingreso",
+                "TOTAL_INTERMENT_DAYS": "{{totalDays}} días internado",
+                "SOURCE": "Origen",
+                "PROBABLE_DISCHARGE_DATE": "Fecha de alta probable",
+                "INTERMENT_REASON": "Motivo de internación",
+                "SERVICE": "Servicio responsable",
+                "NURSE_ASSIGNED": "Enfermero a cargo",
+                "ISOLATION_ALERT": "Alerta de aislamiento",
+                "source_options": {
+                    "OUTPATIENT": "Ambulatorio",
+                    "EMERGENCY_CARE": "Guardia",
+                    "OTHER_ESTABLISHMENT": "Otro establecimiento"
+			    }
+            },
+            "block_unblock_attention_place": {
+				"TITLE_UNBLOCK_BED": "Desbloquear cama",
+				"TITLE_UNBLOCK_DOCTORS_OFFICE": "Desbloquear consultorio",
+				"TITLE_UNBLOCK_SHOCKROOM": "Desbloquear shockroom",
+				"TITLE_BLOCK_BED": "Bloquear cama",
+				"TITLE_BLOCK_DOCTORS_OFFICE": "Bloquear consultorio",
+				"TITLE_BLOCK_SHOCKROOM": "Bloquear shockroom",
+                "CONFIRM_BUTTON_BLOCK": "Bloquear",
+                "CONFIRM_BUTTON_UNBLOCK": "Desbloquear",
+                "SNACKBAR_SUCCESS_BLOCK": "Se bloqueó un espacio físico (consultorio, shockroom o cama)",
+				"SNACKBAR_ERROR_BLOCK": "Hubo un error al bloquear el lugar de atención",
+				"SNACKBAR_SUCCESS_UNBLOCK": "Se desbloqueó un espacio físico (consultorio, shockroom o cama)",
+				"SNACKBAR_ERROR_UNBLOCK": "Hubo un error al desbloquear el lugar de atención"
+            },
+            "blocked-attention-place": {
+                "HOURS_BLOCKED": "Bloqueado ",
+                "MOTIVE": "Motivo",
+                "OBSERVATIONS": "Observaciones",
+				"DETAIL": "Detalle",
+                "DETAIL_PLACEHOLDER": "Explicar brevemente cualquier información relevante relacionada."
+            },
+            "assign-bed": {
+                "BED_ASSIGNMENT_BUTTON": "Asignar cama"
+            }
+        },
+        "change-attention-place": {
+            "TITLE": "Cambiar lugar de atención",
+            "NEW_ATTENTION_PLACE": "Nuevo lugar de atención",
+            "SECTOR": "Sector",
+            "TYPE": "Tipo",
+            "SELECT_SECTOR": "Seleccione sector",
+            "SELECT_DOCTOR_OFFICE": "Seleccione consultorio",
+            "SELECT_SHOCKROOM": "Seleccione shockroom",
+            "DETAIL": "Detalle de cambio de lugar de atención:",
+            "DETAIL_ORIGIN": "Origen:",
+            "DETAIL_DESTINATION": "Destino:",
+            "ASSIGN_BED": "Asignar cama",
+            "BUTTON_CONTINUE": "Continuar",
+            "BUTTON_BACK": "Volver",
+            "BUTTON_CONFIRM": "Confirmar cambio de lugar",
+            "PREVIEW": "Vista previa",
+            "PREPOSITION_OF": " de "
+        },
+        "filters": {
+            "SECTOR": "Sector",
+            "SERVICE": "Servicio",
+            "BED_CATEGORY": "Categoría",
+            "PROBABLE_DISCHARGE_DATE": "Fecha de alta probable",
+            "HIERARCHICAL_UNITS": "Unidades jerárquicas"
+        },
+        "sector": {
+            "NO_INFORMATION": "Sin información",
+            "HIERARCHICAL_UNITS": "Unidad jerárquica",
+            "SERVICES": "Servicios",
+            "ORGANIZATION": "Organización",
+            "AGE_GROUP": "Grupo de edad",
+            "CARE_TYPE": "Tipo de cuidados",
+            "PERMANENCE": "Permanencia"
+        },
+		"menu-actions": {
+			"BLOCK_BED": "Bloquear camas",
+			"UNBLOCK_BED": "Desbloquear camas",
+			"BLOCK_SUCCESS": "Cama/s bloqueadas con éxito",
+			"UNBLOCK_SUCCESS": "Cama/s desbloqueadas con éxito",
+			"UNEXPECTED_ERROR": "Ocurrió un error inesperado"
+		},
+		"block-bed": {
+			"TITLE": "Bloquear camas",
+			"BEDS": "Camas",
+			"SUBTITLE": "Seleccionar camas libres a bloquear:",
+			"SELECT_ALL": "Seleccionar todas los disponibles",
+			"ERROR_SELECT_BED":"Seleccione al menos una cama",
+			"NEXT": "Siguiente",
+			"GO_BACK": "Volver",
+			"REASON": "Motivo",
+			"PREVIEW": "Vista previa",
+			"BLOCK": "Bloquear"
+    	},
+		"unblock-bed": {
+			"TITLE": "Desbloquear camas",
+			"BEDS": "Camas",
+			"SUBTITLE": "Seleccionar camas a desbloquear:",
+			"UNBLOCK": "Desbloquear",
+			"SELECT_ALL": "Seleccionar todas los disponibles"
+		}
+
+	}
+}

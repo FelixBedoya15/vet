@@ -1,0 +1,328 @@
+{
+    "image-network": {
+        "home": {
+            "PICTURES": "Imágenes",
+            "SEARCH_BY_EQUIPMENT": "Diagnóstico por Imágenes",
+            "NO_EQUIPMENT_MSG_TITLE": "El equipo no posee una agenda activa",
+            "NO_PERMISSION": "El módulo de red de imágenes no se encuentra activado en su dominio"
+        },
+        "equipment-diary-setup": {
+            "EQUIPMENT": "Equipo",
+            "NO_EQUIPMENT": "No existen equipos para ese sector",
+            "EQUIPMENT_SELECT": "Seleccione equipo"
+        },
+        "equipment-calendar": {
+            "TODAY": "hoy",
+            "PREVIOUS": "anterior",
+            "NEXT": "próximo",
+            "MONTH": "mes",
+            "WEEK": "semana",
+            "DAY": "día"
+        },
+        "form": {
+            "EDIT_DIARY": "Editar agenda",
+            "NEW_DIARY": "Nueva agenda",
+            "CONFIRM_EDIT_DIARY": "¿Desea confirmar la edición de esta agenda?",
+            "CONFIRM_NEW_DIARY": "¿Desea confirmar la creación de esta agenda?"
+        },
+        "appointments": {
+			"FINISH": "Atender",
+			"FINISH_STUDY": "Finalizar estudio",
+			"CONFIRM": "Completar",
+            "CONFIRM_WITH_REPORT": "Atender y solicitar informe",
+            "CONFIRM_WITHOUT_REPORT": "Atender sin informe",
+			"WORKLIST": "Lista de trabajo",
+			"MEDICAL_COVERAGE": "Cobertura Médica",
+			"MEDICAL_ORDER": "Orden Médica",
+			"ORDER": "Orden",
+			"STUDY_COMPLETED": "El estudio se ha marcado como completado",
+			"STUDY_ERROR": "El estudio no pudo marcarse como completado porque no se encontraron resultados",
+            "NO_APPOINTMENTS": "No se han encontrado resultados para la búsqueda realizada",
+			"medical-order": {
+                "NEW_MEDICAL_ORDER": "Nueva Orden Médica",
+                "ORDER": "Orden",
+                "TRANSCRIBED_ORDER": "Orden transcripta",
+                "TRANSCRIBE_ORDER": "Transcribir orden impresa / externa",
+                "TRANSCRIBE_ORDER_TITLE": "Transcribir orden impresa",
+                "STUDY": "Estudio",
+                "ASSOCIATED_PROBLEM": "Problema asociado",
+                "PROFESSIONAL": "Profesional solicitante",
+                "INSTITUTION": "Institución",
+                "OBSERVATIONS": "Observaciones",
+                "ATTACH_EXTERNAL_ORDER": "Adjuntar orden externa",
+                "FILES_EXTENSION": "El tipo de archivo debe estar en formato JPG, JPEG, PNG o PDF",
+                "ADD_STUDY":"+ Agregar estudio",
+                "STUDY_TITLE":"Agregar estudio",
+                "STUDY_RECORDS": "Estudios a solicitar"
+            },
+            "confirm-dialog": {
+				"CONTENT": "Si confirma el turno no podrá actualizar la cobertura ni la orden médica luego.",
+				"CANCEL": "Si, actualizar datos",
+				"CONFIRM": "No, confirmar turno",
+				"QUESTION": "¿Desea actualizarla ahora?"
+			}
+		},
+        "technical-section": {
+            "WORKLIST":"Lista de trabajo",
+            "QUEUE_IMAGE": "Cola de imágenes",
+            "WORKLIST_IMAGE": "Solicitudes de guardia e internación"
+        },
+        "queue_list": {
+            "TRY_AGAIN": "Reintentar",
+            "INDEX": "Indexar",
+            "DO_FILTER":"Aplicar filtros",
+            "image_indexing": {
+                "INDEX_IMAGE": "Indexar imagen",
+                "INDEX_IMAGE_DIALOG_TITLE": "Indexar imagen",
+                "INDEX_IMAGE_MANUALLY_PLACEHOLDER": "Ingrese el UID del estudio a indexar",
+                "INDEX_IMAGE_MANUALLY_INPUT_TITLE": "UID estudio",
+                "INDEX_IMAGE_MANUALLY_VERIFY": "Verifica en algunos minutos si la imagen se movió correctamente.",
+                "INDEX_IMAGE_MANUALLY_VERIFY_INDEXED": "La imagen se ha indexado manualmente.",
+                "INDEX_IMAGE_MANUALLY_ERROR_INDEXING": "Ocurrió un error al indexar la imagen.",
+                "INDEX_IMAGE_SUBTITLE": "Seleccione una de las imágenes encontradas en el equipo (PACS) local:",
+                "NOT_IN_LIST": "¿No encuentra el estudio en la lista? ",
+                "INDEX_MANUALLY": "Ingresar Uid estudio manualmente",
+                "BACK_TO_LIST": "Volver al listado previo",
+                "NO_INFORMATION": "Sin información"
+            }
+        },
+        "worklist": {
+            "status": {
+                "PENDING": "Pendiente",
+                "DERIVED": "derivado",
+                "COMPLETED": "Completado",
+                "DRAFT": "Borrador",
+                "REJECTED": "Rechazado",
+                "icon-tooltips": {
+                    "REJECTED": "Solo se visualizan las derivaciones rechazadas por otra institución"
+                }
+            },
+            "status_email": {
+                "COMPLETED":"Email enviado",
+                "PENDING":"Email pendiente",
+                "ERROR":"Email fallido"
+            },
+            "details_study": {
+                "DETAILS_STUDY": "Detalle de estudio",
+                "VIEW_LOCAL_STUDY": "Ver estudio local",
+                "BACK_TO_WORKLIST": "Volver al listado de informes",
+                "GO_TO_HC": "Ver paciente",
+                "SAVE_DRAFT": "Guardar como borrador",
+                "DELETE_DRAFT": "Eliminar borrador",
+                "FINISH_REPORT": "Finalizar informe",
+                "SNACKBAR_SUCCESS": "El informe se ha completado exitosamente",
+                "SNACKBAR_ERROR": "El informe no se ha podido completar",
+                "REPORT": "Informe:" ,
+                "DRAFT_REPORT": "Borrador editado - ",
+                "CONTINUE_EDITING": "Seguir editando",
+                "CONCLUTIONS": "Conclusiones:",
+                "OBSERVATIONS": "Detalle de informe:",
+                "VIEW_STUDY": "ver estudio",
+                "VIEW_STUDY_LOCAL": "ver estudio local",
+                "DOWNLOAD_STUDY": "Descargar estudio",
+                "TECHNICIAN_OBSERVATIONS": "Observaciones del técnico",
+                "IMAGE_SIZE": "Peso de la imagen:",
+                "ERROR_VIEW_STUDY": "No es posible visualizar el estudio",
+                "ERROR_DOWNLOAD_STUDY": "No es posible descargar el estudio",
+                "conclutions": {
+                    "ADD_CONCLUTION": "Agregar conclusión",
+                    "REGISTERED_CONCLUTIONS": "Conclusiones registradas",
+                    "SEARCH_CONCLUTION": "Buscar conclusión",
+                    "CONCEPT_LABEL": "Conclusión"
+                },
+                "DETAILED_REPORT": "Informe detallado: ",
+                "PENDING_ORDER": "Orden pendiente",
+                "TRANSCRIBED_ORDER": "Orden transcripta",
+                "ORDER_TYPE": "Tipo de orden",
+                "TEMPLATE": "Plantillas",
+                "SAVE_TEMPLATE_TITLE":"Guardar como plantilla",
+                "IMPORT_TEMPLATE":"Importar plantilla",
+                "DELETE_TEMPLATE":"Eliminar plantilla",
+                "NAME_TEMPLATE":"Nombre de la plantilla",
+                "NAME_EXISTS":"Ya existe una plantilla con ese nombre. Por favor, elija otro",
+                "SNACKBAR_SUCCESS_TEMPLATE": "Plantilla guardada exitosamente",
+                "TEMPLATE_CONFIRM_TITLE":"¿Reemplazar datos?",
+                "TEMPLATE_CONFIRM_CONTENT":"Si importa una plantilla la información actualmente ingresada en el campo “Detalle de informe” será reemplazada por el contenido de la plantilla que seleccione para importar.",
+                "TEMPLATE_CONFIRM_BUTTON_OK":"SI, SELECCIONAR PLANTILLA",
+                "TEMPLATE_CONFIRM_BUTTON_CANCEL":"NO, CANCELAR",
+                "SELECT_TEMPLATE_IMPORT": "Seleccione plantilla a importar",
+                "SELECT_TEMPLATE_DELETE": "Seleccione plantilla a eliminar",
+                "SNACKBAR_SUCCESS_IMPORT": "Plantilla importada exitosamente",
+                "SNACKBAR_SUCCESS_DELETE_TEMPLATE": "Plantilla eliminada exitosamente",
+                "CARE_PATIENT":"Atender paciente",
+                "SOLICITAR_EMAIL": "Solicitar envio de mail",
+                "EMAIL_PENDIENTE": "Solicitud de email pendiente",
+                "ORDER_NUMBER": "Orden #",
+                "asynchronous_download": {
+                    "REQUESTING_STUDY": "Solicitando estudio...",
+                    "SETTING_UP_STUDY": "Preparando el archivo...",
+                    "REQUEST_WAIT": "Esta solicitud puede demorar, una vez verificado el estudio se descargará automáticamente",
+                    "RETRY_DOWNLOAD": "Reintentar descarga",
+                    "DOWNLOAD_FAILED": "La preparación del archivo falló",
+                    "STUDY_NOT_AVAILABLE": "Estudio no disponible"
+                },
+
+                "DETAIL_STUDY":"Detalle de estudio",
+                "INFORM_STATE": "Estado de informe",
+                "ACTION_HOSTORY": "Historial de acciones",
+                "ORDER_REQUEST": "Orden creada",
+                "STUDY_COMPLETED": "Estudio realizado",
+                "DERIVED_REPORT": "Informe derivado",
+                "DRAFT_REPORT_DETAIL": "Informe borrador",
+                "COMPLETED_REPORT": "Informe completado",
+                "REJECTED": "Informe rechazado",
+                "ORDER_OBSERVATION": "Observaciones de la orden",
+                "STUDY_OBSERVATION": "Observaciones del estudio",
+                "MOTIVE": "Motivo"
+            },
+            "filters": {
+                "MODALITY": "Seleccione modalidad",
+                "FILTER_BY_STATE": "Filtrar por estado",
+			    "FILTER_BY_NAME": "Nombre del paciente",
+                "FILTER_BY_IDENTIFICATION": "Documento del paciente",
+                "DATE_SELECT": "Filtrar por periodo",
+                "CLEAN": "Limpiar filtros"
+            },
+            "filters_informer": {
+                "TITLE":"Filtrar por",
+                "STATE_TITLE": "Estado de informe",
+                "STUDY_TITLE":"Tipo de estudio",
+                "PATIENT_TITLE":"Filtrar por paciente"
+            },
+            "WORKLIST_BY_INFORMER": "Lista de informes",
+            "MODALITIES": "Seleccione modalidad",
+            "DATE_RANGE": "Rango de fechas",
+            "START_DATE": "Fecha inicio",
+            "END_DATE": "Fecha fin",
+            "PATIENT_NAME": "Nombre de paciente",
+            "PATIENT_DOCUMENT": "Documento de paciente",
+            "INSTITUTION": "Institución",
+            "STATUS": "Estado",
+            "STUDY":"Estudio",
+            "FINISH": "Informar",
+            "VIEW_DETAILS": "Ver",
+            "OBS_ORDER": "Obs. de la orden :",
+            "OBS_STUDY": "Obs. del estudio :",
+            "OBSERVATIONS": "Observación: ",
+            "STUDY_OBSERVATIONS": "Observaciones del estudio realizado",
+            "LAST_UPDATE":"Última actualización",
+			"DERIVE_REPORT": "Derivar informe",
+			"REQUEST_REPORT": "Solicitar informe",
+			"REQUEST_REPORT_TO": "Solicitar informe a ",
+			"REPORT_REFERRED": "El informe se ha derivado a ",
+            "PENDING_REPORT": "Informe pendiente",
+            "DERIVED_REPORT": "Informe derivado a ",
+            "VIEW_REPORT": "Ver informe",
+            "DOWNLOAD_REPORT": "Descargar informe",
+            "REPORT_NOT_REQUIRED": "No requiere informe",
+            "REPORT_REQUIRED": "Informe solicitado",
+            "ATTACHED_DOCUMENTS": "Documentos adjuntos",
+			"correction": {
+				"REQUEST_CORRECTION": "Solicitar Corrección",
+				"actions": {
+					"REQUEST_CORRECTION_TITLE": "Aclarar motivo de solicitud",
+					"REQUEST_CORRECTION_SUBTITLE": "Para confirmar los cambios por favor especifique el motivo por el cuál solicita una corrección del informe.",
+					"REQUEST_CORRECTION_SNACK_SUCCESS": "Solicitud de corrección enviada con éxito",
+					"PENDING_REQUEST": "Solicitud pendiente"
+				}
+			},
+            "reject-derivation": {
+                "APPLICATION_REJECTED": "Solicitud Rechazada: ",
+                "REJECT": "Rechazar",
+                "REJECT_APPLICATION": "Rechazar solicitud",
+                "TITLE": "Rechazar solicitud de informe",
+                "SUBTITLE": "Al rechazar una solicitud será devuelta a la Institución de origen.",
+                "PENDING_ORDER": "Orden pendiente",
+                "MOTIVE": "Motivo del rechazo",
+                "OBSERVATIONS": "Observaciones",
+                "ADD": "Agregar...",
+                "CANCEL": "Cancelar",
+                "SUCCESS": "Solicitud de informe rechazada",
+                "ERROR": "No es posible rechazar la solicitud",
+                "motive": {
+                    "MISSING_IMAGES": "Faltan imágenes en el PACS central",
+                    "INSUFFICIENT_PROFESSIONALS": "No contamos con profesionales para este informe",
+                    "MORE_INFORMATION_NEEDED": "Se solicita más información",
+                    "OTHERS": "Otros"
+                }
+            },
+            "delete-draft": {
+                "TITLE": "¿Eliminar estado borrador?",
+                "SUBTITLE": "El informe volverá a estado pendiente.",
+                "SECOND_SUBTITLE": "En caso de haber archivos adjuntos al informe estos serán eliminados.",
+                "DELETE": "Eliminar borrador",
+                "SUCCESS_DELETED_MESSAGE": "Se ha eliminado el estado borrador",
+                "ERROR_DELETING_MESSAGE": "No es posible eliminar el estado borrador"
+            },
+            "informer-worklist": {
+                "derive": {
+                    "DERIVE": "Derivar",
+                    "TITLE": "Derivar informe rechazado",
+                    "REJECT_DETAIL": "Detalle del rechazo",
+                    "MOTIVE": "Motivo",
+                    "DESTINATION_INSTITUTION": "Institución destino",
+                    "SUCCESS": "Derivación exitosa",
+                    "ERROR": "No es posible realizar la derivación"
+                }
+            }
+		},
+		"work-order-list": {
+			"FILTERS": "Filtros",
+			"filters": {
+				"STUDY_STATUS": "Estado del estudio",
+				"STUDY_NAME": "Estudio",
+				"STUDY_NAME_PLACEHOLDER": "Nombre de estudio",
+				"PATIENT_DOCUMENT": "Nro de documento",
+				"PATIENT_NAME": "Nombre",
+				"PATIENT_LASTNAME": "Apellido",
+				"MANDATORY_START_DATE": "La fecha inicial es obligatoria",
+				"MANDATORY_END_DATE": "La fecha final es obligatoria",
+				"MAX_DATE_RANGE": "El rango entre inicio y fin no puede superar los {{ maxDateGap }} días"
+			},
+            "utils": {
+                "scope-options": {
+                    "GUARD": "Guardia",
+                    "INTERNMENT": "Internación"
+                },
+                "state-study": {
+                    "PENDING": "Pendiente",
+                    "TRANSFERRED": "Transferido",
+                    "CANCELED": "Anulado"
+                },
+                "study-type-options": {
+                    "ROUTINE": "Rutina",
+                    "URGENT": "Urgente"
+                },
+                "transfer-options": {
+                    "REQUIRES": "Requiere",
+                    "NOT_REQUIRED": "No requiere"
+                }
+            },
+            "transfer": {
+                "SUCCESS":"El estudio se marcó como Transferido.",
+                "ERROR":"No pudo realizarse el cambio de estado del estudio. Vuelva a intentar en un momento."
+            }
+ 		},
+        "report": {
+            "FILES_EXTENSION": "Los archivos adjuntos deben ser de tipo imagen (JPEG, PNG, JPG). Por favor, verifique el formato para continuar.",
+            "FILES_WEIGHT": "La imagen no debe superar un tamaño de 5MB ",
+            "manually-index": {
+                "table": {
+                    "MODALITY": "Modalidad",
+                    "UID": "Uid",
+                    "PATIENT": "Paciente",
+                    "DATE": "Fecha de captura"
+                }
+            }
+        },
+        "email": {
+            "TITLE": "Solicitar Envío de Informe por Correo Electrónico",
+            "TEXT": "Una vez confirmada la dirección de correo electrónico, el paciente recibirá, a la mayor brevedad posible, un mensaje con el informe y el enlace a las imágenes correspondientes. ",
+            "SUB_TEXT": "Por favor confirme el mail del paciente",
+            "LABEL": "Email del paciente",
+            "ERROR": "Error formato de email",
+            "ERROR_REQUEST": "Se produjo un error al confirmar la solicitud",
+            "SUCCESS_REQUEST": "Solicitud de email enviada correctamente"
+        }
+	}
+}

@@ -1,0 +1,400 @@
+{
+	"pacientes": {
+		"message-for-audit": {
+			"TITLE": "Mensaje para auditoría",
+			"DESCRIPTION": "Por favor ingrese un mensaje argumentando el motivo por el cual el paciente debe auditarse",
+			"MESSAGE_LABEL": "Mensaje"
+		},
+		"assigned-appointment": {
+			"LICENSE_NUMBER_ACRONYM": "MN N°"
+		},
+		"assigned-appointments": {
+			"TITLE": "Turnos asignados",
+			"WITHOUT_APPOINTMENTS_MESSAGE": "Sin turnos asignados",
+			"SEE_APPOINTMENT": "Ver turno en Agenda"
+		},
+		"booking-appointments": {
+			"TITLE": "Reservas online",
+			"WITHOUT_APPOINTMENTS_MESSAGE": "Sin turnos reservados",
+			"SEE_BOOKING": "Ver reserva en Agenda"
+		},
+		"profile": {
+			"INITIATE_INTERNMENT": "Iniciar internación",
+			"PATIENT_INTERNMENT_ANOTHER_INSTITUTION": "El paciente se encuentra internado en otra institución.",
+			"PATIENT_INTERNMENT_IN_ANOTHER_INSTITUTION": "El paciente se encuentra internado en la institución {{ institutionName }}.",
+			"REPORTS": "Informes",
+			"MARKED_FOR_AUDIT": "Marcado para auditar",
+			"SEE_CLINICAL_HISTORY": "Ver historia clínica",
+			"VIEW_APPOINTMENT_HISTORY": "Ver historial"
+		},
+		"form": {
+			"ADDRESS": "Domicilio",
+			"ADDRESS_APARTMENT": "Departamento",
+			"ADDRESS_CITY": "Ciudad",
+			"ADDRESS_COUNTRY": "Pais",
+			"ADDRESS_DEPARTMENT": "Partido",
+			"ADDRESS_FLOOR": "Piso",
+			"ADDRESS_NUMBER": "Número",
+			"ADDRESS_POSTCODE": "Código  postal",
+			"ADDRESS_PROVINCE": "Provincia",
+			"ADDRESS_QUARTER": "Barrio",
+			"ADDRESS_STREET": "Calle",
+			"BIRTH_DATE": "Fecha de nacimiento",
+			"CUIT_CUIL": "CUIT / CUIL",
+			"EMAIL": "Email",
+			"ETHNIC": "Pueblo Nación Indígena u Originario",
+			"OCCUPATION": "Ocupación",
+			"EDUCATION_LEVEL": "Nivel educativo",
+			"FIRST_NAME": "Primer nombre",
+			"FIRST_NAMES_TITLE": "Nombres",
+			"FULL_NAME": "Nombre completo",
+			"GENDER": "Sexo",
+			"GENDER_SELF_DETERMINATION": "Identidad de género",
+			"OTHER_SELF_PERCEIVED_GENDER_LABEL": "Especifique cuál",
+			"GENERAL_PRACTITIONER": "Médico de cabecera",
+			"IDENTIFICATION_TYPE": "Tipo de documento",
+			"IDENTIFICATION_NUMBER": "Nº de documento",
+			"INVALID": "El campo es inválido.",
+			"LAST_NAME": "Primer apellido",
+			"LAST_NAME_TITLE": "Apellidos",
+			"MAX_CHARACTER": "Introduzca como máximo 11 caracteres",
+			"MEDICAL_COVERAGE": "Cobertura médica",
+			"COVERAGE": "Cobertura",
+			"MIDDLE_NAMES": "Otros nombres",
+			"MOTHERS_LAST_NAME": "Apellido materno",
+			"NAME_SELF_DETERMINATION": "Nombre autopercibido",
+			"ONLY_NUMBERS": "Solo números",
+			"OTHER_LAST_NAMES": "Otros apellidos",
+			"PAMI_DOCTOR": "Médico de PAMI",
+			"PHONE_PREFIX": "Prefijo",
+			"PHONE_NUMBER": "Teléfono",
+			"RELIGION": "Religión",
+			"REQUIRED": "El campo es requerido",
+			"REQUIRED_GENDER": "Género requerido",
+			"SELECT": "Seleccionar",
+			"UPDATE_MEDICAL_COVERAGE": "Actualizar cobertura",
+			"NO_INFO": "Sin información",
+			"IDENTIFICATION_NUMBER_MAXLENGHT_ERROR": "Introduzca como máximo 11 caracteres",
+			"STATE": "Estado",
+			"UPLOAD_FILES": "ADJUNTAR DOCUMENTO",
+			"ATTACHED_DOCUMENTS": "Documentos adjuntos",
+			"UPDATE_IDENTIFICATION_NUMBER": "Cambiar N° de DNI",
+			"NOT_ATTACHED_DOCUMENTS": " Sin documentos adjuntos",
+			"TITLE_UPDATE_IDENTIFICATION_NUMBER": "Cambiar N° de documento",
+			"DNI": "DNI",
+			"PATIENT_ID": "ID del paciente",
+			"INFO_TITLE": "Para realizar la búsqueda complete una de estas opciones",
+			"INFO_OPTION1": "Tipo y Nro de documento",
+			"INFO_OPTION2": "Nombre y Apellido",
+			"INFO_OPTION3": "ID del Paciente"
+		},
+		"home": {
+			"TITLE": "Pacientes",
+			"SUBTITLE": "Ingrese los siguientes datos para realizar la búsqueda",
+			"find_add_section": {
+				"BUTTON_ADD": "Crear paciente temporal",
+				"BUTTON_SEARCH": "Buscar",
+				"NO_IDENTITY": "No acredita identidad",
+				"TITLE": "Búsqueda",
+				"scan": {
+					"BUTTON_SCAN": "Escanear código",
+					"messages": {
+						"ERROR": "El escaneo no pudo completarse correctamente. Intente de nuevo o proceda a una búsqueda manual.",
+						"SUCCESS": "Resultados encontrados."
+					}
+				},
+				"IDENTIFY_TYPE_LABEL": "Tipo",
+				"IDENTIFY_NUMBER_LABEL": "Nro. de documento",
+				"GENDER_LABEL": "Sexo documento",
+				"SELECT_REASON_LABEL": "Seleccione motivo",
+				"COMMENTS_LABEL": "Comentarios"
+			}
+		},
+		"new": {
+			"TITLE_PERSON": "Nueva Persona",
+			"TITLE_PATIENT": "Nuevo Paciente",
+			"SUBTITLE": "Ingresá los siguientes datos.",
+			"TITLE_TEMPORARY_PATIENT": "Nuevo Paciente Temporal",
+			"TITLE_TEMPORARY_PERSON": "Nueva Persona Temporal",
+			"CREATE_BY": "Creado por ",
+			"messages": {
+				"ERROR_PATIENT": "Error al crear un paciente",
+				"ERROR_PERSON": "Error al crear una persona",
+				"SUCCESS_PATIENT": "El paciente se creó exitosamente",
+				"SUCCESS_PERSON": "La persona se creó exitosamente"
+			},
+			"duplicated-patient-warning": {
+				"TITLE": "El paciente ya existe ¿Qué desea hacer?",
+				"CREATE_ANYWAYS": "Crear de todos modos",
+				"SEARCH_EXISTING_PATIENT": "Buscar paciente existente"
+			}
+		},
+		"search": {
+			"TITLE": "Búsqueda de pacientes",
+			"SUBTITLE": "No se ha encontrado una persona registrada con ese tipo y número de documento.",
+			"SUBTITLE_TWO": "Complete los siguientes datos para una búsqueda avanzada.",
+			"NEW_PATIENT": "Crear nuevo paciente",
+			"NEW_PERSON": "Crear nueva persona",
+			"RENAPER_TIMEOUT": "No hubo respuesta del servicio de Renaper, por favor intente más tarde.",
+			"ROW_TABLE": "ID Paciente"
+		},
+		"edit": {
+			"TITLE_PATIENT": "Editar paciente",
+			"SUBTITLE_PATIENT": "Se editará el paciente seleccionado",
+			"TITLE_PERSON": "Editar Persona",
+			"SUBTITLE_PERSON": "Se editará la persona seleccionada",
+			"MARK_FOR_AUDIT": "Marcar paciente para auditoria",
+			"MESSAGE_FOR_AUDIT": "Mensaje para auditoría",
+			"EDIT_MESSAGE_FOR_AUDIT": "Editar mensaje",
+			"UNMARK_PATIENT_FOR_AUDIT": "Desmarcar paciente para auditoría",
+			"A_MOMENT_AGO": "Hace un momento",
+			"EDIT_BY": "Editado por ",
+			"unmark-patient-for-audit": {
+				"DESCRIPTION": "Si desmarca al paciente, se perderán los motivos por los cuales fue marcado",
+				"QUESTION": "¿Está seguro?",
+				"CANCEL": "No, cancelar",
+				"CONFIRM": "Si, desmarcar"
+			},
+			"messages": {
+				"ERROR_PATIENT": "Error al editar un paciente",
+				"ERROR_PERSON": "Error al editar una persona",
+				"SUCCESS_PATIENT": "El paciente se editó exitosamente",
+				"SUCCESS_PERSON": "La persona fue editada exitosamente"
+			}
+		},
+		"search_patient": {
+			"SEARCH_PATIENT": "Buscar Paciente",
+			"SELECT_PATIENT": "Seleccione un paciente",
+			"PATIENT_NOT_FOUND_MESSAGE": "No se encontraron pacientes <br> con los campos ingresados",
+			"CREATE_NEW_PATIENT": "Crear nuevo paciente",
+			"forms": {
+				"IDENTIF_TYPE": "Tipo",
+				"NAME": "Nombre",
+				"LAST_NAME": "Apellido",
+				"IDENTIFICATION_NUMBER": "Nro de documento",
+				"GENDER": "Sexo",
+				"PATIENT_ID": "ID Paciente"
+			},
+			"PATIENT_NOT_FOUND": "Paciente no encontrado",
+			"PROVES_IDENTITY": "Acredita identidad",
+			"PATIENT_ID": "ID Paciente",
+			"scan": {
+				"TITLE": "Buscar paciente por escaneo de código de DNI",
+				"ITEM_1": "Disponga de una Lectora de código.",
+				"ITEM_2": "Escanee el código del DNI ubicado en la parte inferior derecha del frente mismo.",
+				"ITEM_3": "La búsqueda se realizará de forma automática al detectar el código."
+			}
+		},
+		"reports": {
+			"TITLE": "Informes",
+			"SELECT_CONSULTATIONS": "Seleccione consultas",
+			"table": {
+				"columns": {
+					"DATE": "Fecha",
+					"SPECIALTY": "Especialidad",
+					"PROFESSIONAL": "Profesional"
+				}
+			},
+			"SELECT_REPORT_TYPE": "Seleccione tipo de informe",
+			"buttons": {
+				"DOWNLOAD_REPORTS": "Descargar informes"
+			}
+		},
+		"user_data": {
+			"TITLE": "Datos de usuario",
+			"USER_ID": "ID Usuario:",
+			"USERNAME": "Nombre de usuario:",
+			"LAST_ACCESS": "Último acceso:",
+			"ENABLE": "Habilitado",
+			"PENDING_DATA": "Nombre de usuario y contraseña pendientes",
+			"WITHOUT_USER": "Sin usuario",
+			"NO_INFO": "Sin información",
+			"WITHOUT_PROFESSIONS": "Sin profesiones asignadas.",
+			"NOT_HAVE_PERMISSIONS": "No posee permisos suficientes para editar a este usuario. Consulte con su Administrador.",
+			"LICENCE": "Matrícula:",
+			"PROFESSION": "Profesión:",
+			"SPECIALTY": "Especialidad:",
+			"NO_DOCUMENTS": "Aun no hay archivos adjuntos cargados",
+			"USER_DISABLE": "No se pueden editar unidades jerárquicas en usuarios deshabilitados.",
+			"USER_WITHOUT_ROLES": "No se pueden agregar unidades jerárquicas en usuarios sin roles",
+			"HIERARCHICAL_UNITS_PENDING": "unidades jerárquicas pendientes",
+			"HIERARCHICAL_UNITS_ASSOCIATED": "unidades jerárquicas asociadas:",
+			"RESPONSIBLE": "responsable",
+			"buttons": {
+				"CREATE_USER": "CREAR USUARIO",
+				"SET_ACCESS_DATA": "ESTABLECER DATOS DE ACCESO",
+				"RESET_ACCESS_DATA": "RESTABLECER DATOS DE ACCESO",
+				"EDIT_ROLES": "EDITAR ROLES",
+				"EDIT_PROFESSIONS": "EDITAR PROFESIONES",
+				"EDIT_LICENSES": "EDITAR MATRICULAS",
+				"EDIT_HIERARCHICAL_UNITS": "editar unidades jerarquicas"
+			},
+			"messages": {
+				"SUCCESS": "El usuario se creó exitosamente",
+				"ERROR": "Error al crear el usuario",
+				"UPDATE_SUCCESS": "El usuario se actualizó exitosamente"
+			}
+		},
+		"edit_professions": {
+			"TITLE": "Editar profesión",
+			"LICENCE": "Matrícula",
+			"ENTER_LICENCE": "Ingrese matrícula",
+			"LICENCE_REQUIRED": "El campo es requerido",
+			"SELECT_PROFESSION": "Seleccione profesión",
+			"SELECT_SPECIALTY": "Seleccione especialidad",
+			"PROFESSION_SPECIALTY": "Profesión | Especialidad",
+			"ADD_ANOTHER_SPECIALTY": "Agregar otra especialidad",
+			"ADD_ANOTHER_PROFESSION_AND_SPECIALTIES": "Agregar otra profesión/especialidad",
+			"messages": {
+				"SUCCESS": "Se guardaron correctamente los cambios en profesiones",
+				"ERROR": "Error al guardaron los cambios en profesiones"
+			}
+		},
+		"edit_license": {
+			"TITLE": "Matriculas",
+			"ADD_ANOTHER_LICENSE": "Agregar otra matricula",
+			"form_license": {
+				"LICENSE_NUMBER": "N° de matricula",
+				"NATIONAL": "Nacional",
+				"PROVINCE": "Provincial",
+				"PROFESSION": "Profesión",
+				"SELECT_SPECIALTY": "Seleccione especialidad",
+				"SELECT_PROFESSION": "Seleccione profesión",
+				"SPECIALTY": "Especialidad",
+				"ASSOCIATED_WITH": "Asociada a:",
+				"PROFESSION_ERROR": "Requiere al menos una profesión.",
+				"SPECIALTY_ERROR": "Requiere una especialidad.",
+				"LICENSE_REQUIRED_ERROR": "Requiere una matricula.",
+				"LICENSE_PATTERN_ERROR": "La matricula no es válida.",
+				"LICENSE_MAX_LENGTH_ERROR": "Introduzca como máximo 15 caracteres",
+				"buttons": {
+					"VALIDATE": "Validar"
+				}
+			}
+		},
+		"edit_prefessions_specialties": {
+			"TITLE": "Editar profesión",
+			"ADD_ANOTHER_PROFESSION_AND_SPECIALTIES": "Agregar otra profesión/especialidad",
+			"profession_specialties": {
+				"ADD_ANOTHER_SPECIALTY": "Agregar otra especialidad",
+				"SELECT_SPECIALTY": "Seleccione especialidad",
+				"SELECT_PROFESSION": "Seleccione profesión",
+				"PROFESSION": "Profesión",
+				"SPECIALTY": "Especialidad",
+				"PROFESSION_ERROR": "Se requiere una profesión.",
+				"SPECIALTY_ERROR": "Se requiere al menos una especialidad."
+			}
+		},
+		"edit_roles": {
+			"TITLE": "Editar roles",
+			"ADD_ANOTHER_ROLES": "Agregar otro rol",
+			"PROFESSION_REQUIRED": "Este rol requiere definir una profesión",
+			"messages": {
+				"SUCCESS": "Se guardaron correctamente los cambios",
+				"ERROR": "Error al guardaron los cambios de roles"
+			}
+		},
+		"edit_hierarchical_units": {
+			"TITLE": "editar unidades jerárquicas",
+			"LABEL": "Seleccionar unidad jerárquica",
+			"ADD_HIERARCHICAL_UNITS": "Asociar otra unidad jerárquica",
+			"RESPONSIBLE": "responsable",
+			"message": {
+				"ERROR": "Error al guardar los cambios en unidades jerárquicas"
+			}
+		},
+		"card_roles": {
+			"ROL_COLUMN": "Rol",
+			"INSTITUTION_COLUMN": "Institución",
+			"WITHOUT_ROLES": "Sin roles asignados."
+		},
+		"card_license": {
+			"TITLE": "Matriculas",
+			"NATIONAL": "Nacional",
+			"PROVINCE": "Provincial",
+			"WITHOUT_LICENSE": "Sin matriculas asignadas."
+		},
+		"emergency_care_episode_sumamry": {
+			"TITLE": "Resumen de Guardia",
+			"buttons": {
+				"VIEW_EPISODE": "VER GUARDIA"
+			}
+		},
+		"audit": {
+			"TITLE": "Auditoría",
+			"TITLE_FUSION_PATIENTS": "Fusión de pacientes",
+			"TITLE_CONTROL_DUPLICATE_PATIENTS": "Control de pacientes duplicados",
+			"SUBTITLE_LIST_AUDIT_BY": "Listar auditoría por",
+			"LABEL_FILTER_1": "Nombre, apellido, tipo y número de documento iguales",
+			"LABEL_FILTER_2": "Nombre, apellido y fecha de nacimiento iguales",
+			"LABEL_FILTER_3": "Nombre, apellido, fecha de nacimiento, tipo y número de documento iguales",
+			"LABEL_FILTER_4": "Tipo y número de documento iguales",
+			"LABEL_BUTTON_AUDIT": "AUDITAR",
+			"LABEL_FULL_NAME": "Nombre y Apellido",
+			"LABEL_IDENTIFICATION_NUMBER": "Tipo y Nro de documento",
+			"LABEL_CANDIDATES": "Candidatos",
+			"LABEL_BIRTHDATE": "Fecha de nacimiento",
+			"LABEL_BUTTON_VIEW": "Ver",
+			"LABEL_NAME": "Nombre",
+			"LABEL_LASTNAME": "Apellido",
+			"LABEL_STATE": "Estado",
+			"LABEL_DOC": "Doc",
+			"LABEL_ID": "ID",
+			"LABEL_BUTTON_MERGE": "Fusionar",
+			"TITLE_WARNING": "Van a fusionarse {{cant}} pacientes",
+			"SUBTITLE_WARNING": "Los datos seleccionados que quedarán en el paciente resultante son: ",
+			"LABEL_WARNING": "El resto de los datos personales que quedarán en el paciente resultante serán los datos del paciente: ",
+			"QUESTION_WARNING": "¿Está seguro que desea realizar la fusión?",
+			"BUTTON_CANCEL": "No, cancelar",
+			"BUTTON_CONFIRM": "Si, fusionar",
+			"TITLE_CONFIRMED_FUSION": "Pacientes fusionados con éxito",
+			"SUBTITLE_CONFIRMED_FUSION": "Ahora el paciente con ID {{id}} contiene la información clínica de los pacientes fusionados. En caso de querer deshacer la fusión deberá dirigirse a la pantalla 'Desvincular pacientes'.",
+			"LABEL_FILTER": "Filtrado por ",
+			"MESSAGE_VALIDATION_FUSION": "Es necesario seleccionar al menos dos pacientes para realizar la fusión",
+			"MESSAGE_VALIDATION_COLUMNS": "Es necesario seleccionar al menos un dato de cada columna para realizar la fusión",
+			"CLARIFICATION_ONE": "Por favor, tilde en la columna izquierda los pacientes que desea fusionar.",
+			"CLARIFICATION_TWO": " Posteriormente, seleccione por cada columna el dato definitivo con el que quedará el paciente fusionado.",
+			"CLARIFICATION_THREE": "El resto de los datos personales que permanecerán en el paciente fusionado serán los del id seleccionado.",
+			"TITLE_EMPADRONAMIENTO": "Empadronamiento",
+			"SUBTITLE_EMPADRONAMIENTO": "Búsqueda y edición de pacientes",
+			"SUBTITLE_PATIENT_SEARCH": "Búsqueda de pacientes",
+			"LABEL_PATIENT_SEARCH": "Se recomienda completar todos los campos de búsqueda para lograr mayor porcentaje de coincidencia.",
+			"LABEL_PATIENT_ID": "Id paciente",
+			"LABEL_PERSONAL_INFORMATION": "Datos personales",
+			"SUBTITLE_FILTER_BY": "Filtrar por",
+			"LABEL_STATE_VALIDATION": "Validación del estado",
+			"PENDING_TO_AUDIT": "Pendiente de auditoría",
+			"AUDITED": "Auditado",
+			"FLAGGED_FOR_AUDIT": "Marcado para auditar",
+			"NO_INFO": "No hay información encontrada. Intente mejorar los parámetros de búsqueda",
+			"BUTTON_CONFIRM_USE": "Si, utilizar",
+			"SUBTITLE_WARNING_EDIT_IDENTIFICATION_NUMBER": "Los datos encontrados por RENAPER para el DNI {{dni}} son los siguientes: ",
+			"QUESTION_WARNING_EDIT_IDENTIFICATION_NUMBER": "¿Desea utilizar estos datos?",
+			"QUESTION_MARK_AUDIT_RESOLVED": "¿Marcar como resuelto el pedido de auditoría?",
+			"BUTTON_SAVE_RESOLVED": "Guardar y resolver",
+			"BUTTON_SAVE_NOT_RESOLVED": "Guardar y no resolver",
+			"SAVE_OK_EDIT_AUDIT": "La indicación se marcó como resuelta y el paciente fue editado con éxito.",
+			"TITLE_NO_DATA_RENAPER": "La información ingresada no se encuentra en Renaper",
+			"SUBTITLE_NO_DATA_RENAPER": "Por favor, revise los datos ingresados y vuelva a intentar",
+			"LABEL_PATIENT_REJECTED": "El paciente “Rechazado” no se verá en el resto del los módulos del sistema.",
+			"TITLE_ERROR_REJECTED": "El paciente tiene un encuentro activo",
+			"LABEL_ERROR_REJECTED": "El paciente no puede rechazarse porque tiene al menos un encuentro activo. Para rechazar el paciente no debe estar en un episodio abierto de guardia o internación y no debe tener turnos asignados",
+			"TITLE_ERROR_REJECTED_PATIENT_HAS_USER": "Rechazar paciente",
+			"SUBTITLE_ERROR_REJECTED_PATIENT_HAS_USER": "Si cambia el estado a 'Rechazado' el paciente no será más visible en el resto de los módulos del sistema y en caso de contar con un usuario, el mismo quedará deshabilitado. Una vez rechazado el paciente no podrá volver a validarse.",
+			"QUESTION_ERROR_REJECTED_PATIENT_HAS_USER": "¿Está seguro que desea cambiar el estado a 'Rechazado'?",
+			"TITLE_UNLINK_PATIENT": "Desvincular pacientes",
+			"SUBTITLE_UNLINK_PATIENT": "Separar datos de pacientes fusionados",
+			"MERGERS": "Fusiones",
+			"CLARIFICATION_UNLINK_PATIENT": "Por favor, seleccione en la columna izquierda el paciente que desea desvincular del paciente principal.",
+			"BUTTON_UNLINK": "Desvincular",
+			"BUTTON_YES_UNLINK": "Si, desvincular",
+			"AUDIT_OF": "Auditoría de ",
+			"QUESTION_WARNING_UNLINK": "¿Está seguro que desea realizar la desvinculación? ",
+			"ERROR_UNLINK": "Seleccione un paciente para desvincularlo del paciente principal",
+			"TITLE_CONFIRMED_UNMERGE": "Paciente desvinculado con éxito",
+			"SUBTITLE_CONFIRMED_UNMERGE": "El paciente ID {{idUnmerge}} y la información clínica asociada al mismo fue desvinculada del paciente ID {{idFusion}}. Ahora aparecerán en el sistema como pacientes independientes.",
+			"TEXT_CONFIRMED_UNMERGE": " En caso de querer deshacer la desvinculación deberá dirigirse a la pantalla de 'Fusión de pacientes'.",
+			"TITLE_MARKED_FOR_AUDIT": "Marcados para auditar"
+		}
+	}
+}

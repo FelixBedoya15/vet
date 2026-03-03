@@ -1,0 +1,60 @@
+{
+	"home": {
+		"instituciones": {
+			"PREVIOUS_LOGIN" : "Inicio de sesión anterior"
+		}
+	},
+	"profile": {
+		"TITLE_MY_ACCOUNT": "Mi cuenta",
+		"ROLES": "Roles",
+		"SECURITY": "Seguridad",
+		"ACTIVE_SESSION":"Sesiones activas",
+		"CLOSE_SESSION":"Cerrar sesión",
+		"TITLE_CLOSE_SESSION": "¿Cerrar sesión activa?",
+		"LABEL_CLOSE_SESSION": "La sesión se cerrará inmediatamente en ese dispositivo.",
+		"api-keys": {
+			"form": {
+				"name": {
+					"LABEL": "Nombre",
+					"REQUIRED": "El nombre es requerido"
+				}
+			}
+		},
+		"two-factor-authentication": {
+			"ENABLE_2FA": "Activar autenticación por doble factor",
+			"ENABLE_2FA_SUCCESS": "Autenticación por doble factor activada",
+			"2FA_ALREADY_ACTIVATED": "Autenticación por doble factor ya activada",
+			"enable-dialog": {
+				"TITLE": "Activar autenticación por doble factor",
+				"2FA_DESCRIPTION": "Utilizando una aplicación de autenticación en su móvil (por ejemplo Google Authenticator o FreeOTP) deberá elegir la opción “Añadir nueva cuenta” y proceder con alguna de las siguientes opciones",
+				"QR_CODE_DESCRIPTION": "Escaneo de código QR",
+				"CODE_DESCRIPTION": "Ingreso de código manual",
+				"CONFIRMATION_STEP_TITLE": "Ingrese código de confirmación",
+				"CONFIRMATION_STEP_DESCRIPTION": "Ingrese el código de confirmación que aparece en la aplicación de autenticación",
+				"VERIFICATION_CODE_MINIMUM_LENGTH": "El código debe contener 6 dígitos",
+				"VERIFICATION_CODE_INVALID": "Código incorrecto",
+				"NEXT_STEP": "Continuar",
+				"PREVIOUS_STEP": "Volver",
+				"CONFIRM": "Confirmar"
+			}
+		},
+		"api-key": {
+			"TITLE": "Acceso API Pública",
+			"SUBTITLE": "API Keys activas",
+			"DO": "Generar clave",
+			"EMPTY": "No tiene claves generadas",
+			"generate-dialog": {
+				"TITLE": "Generar API Key",
+				"ENTRY_NAME": "Defina un nombre para su clave, que lo ayude a identificarla de su conjunto de claves:",
+				"ENTRY_NAME_PLACEHOLDER": "Ej: token serviceExterno.ar ó miclave",
+				"WARNING_CONFIRMATION": "Guarde en un lugar seguro su nueva clave y procure no perderla, ya que no se puede recuperar",
+				"GENERATED_SUCCESSFULLY": "Clave generada satisfactoriamente"
+			}
+		}
+	},
+	"warning-refresh": {
+		"TITLE":"Nueva versión disponible",
+		"CONTENT":"Una nueva versión de la aplicación está disponible. Para continuar, por favor recarga la página.Este proceso no tomará mucho tiempo, pero ten en cuenta que cualquier cambio no guardado se perderá. ¡Gracias por tu paciencia!",
+		"BUTTON_REFRESH":"Recargar página"
+	}
+}

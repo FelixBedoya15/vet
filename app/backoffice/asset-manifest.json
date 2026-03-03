@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/backoffice/static/css/main.3b8d6722.css",
+    "main.js": "/backoffice/static/js/main.afd2d46f.js",
+    "static/js/787.8edc3f13.chunk.js": "/backoffice/static/js/787.8edc3f13.chunk.js",
+    "index.html": "/backoffice/index.html",
+    "main.3b8d6722.css.map": "/backoffice/static/css/main.3b8d6722.css.map",
+    "main.afd2d46f.js.map": "/backoffice/static/js/main.afd2d46f.js.map",
+    "787.8edc3f13.chunk.js.map": "/backoffice/static/js/787.8edc3f13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b8d6722.css",
+    "static/js/main.afd2d46f.js"
+  ]
+}

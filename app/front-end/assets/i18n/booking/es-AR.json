@@ -1,0 +1,33 @@
+{
+    "booking": {
+        "home": {
+            "TITLE": "Reservas"
+        },
+        "filters": {
+            "TITLE": "Filtrar por paciente",
+            "CLEAN": "Limpiar filtros",
+            "IDENTIFICATION_NUMBER": "Nº de identificación",
+            "NAME": "Nombre",
+            "LASTNAME": "Apellido",
+			"DATE_RANGE": "Rango de fecha"
+        },
+		"audit-info": {
+			"CREATED_BY_PUBLIC_API": "Reserva generada por sistema externo (API Pública).",
+			"CREATED_BY": "Reserva generada por ",
+			"CANCELLED_BY_PUBLIC_API": "Reserva cancelada desde sistema externo (API Pública).",
+			"CANCELLED_BY": "Reserva cancelada por ",
+			"CANCELLED_BY_PATIENT": "Reserva cancelada por paciente desde link de cancelación.",
+			"CANCELLED_BY_INSTITUTION": "Reserva cancelada desde institución."
+		},
+        "dialogs": {
+            "cancel": {
+                "TITLE": "¿Cancelar reserva?",
+                "actions": {
+                    "BACK": "No, volver",
+                    "CANCEL": "Cancelar reserva"
+                },
+                "SUCCESS": "Reserva cancelada con éxito"
+            }
+        }
+    }
+}

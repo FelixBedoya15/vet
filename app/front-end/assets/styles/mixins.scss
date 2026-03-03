@@ -1,0 +1,134 @@
+@import "variables";
+
+@import "./../../app/modules/presentation/presentation-mixins.scss";
+@import "./../../app/modules/turnos/turnos-mixins.scss";
+@import "./../../app/modules/historia-clinica/historia-clinica-mixins.scss";
+@import "./../../app/modules/shared-appointment-access-management/shared-appointment-access-management-mixins.scss";
+
+@mixin form-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+@mixin form-col {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+@mixin card-properties {
+	width: 50%;
+}
+
+@mixin space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin space-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+@mixin align-center {
+    display: flex;
+    align-items: center;
+}
+
+@mixin card-centered {
+	max-width: 400px;
+	margin: 15vh auto;
+}
+
+@mixin card-content {
+	margin: 0 16px;
+}
+
+@mixin form-radio-button {
+	margin: 5px 10px;
+}
+
+@mixin form-field {
+	margin-left: 10px;
+}
+
+@mixin form-buttons {
+	margin: 20px 0;
+	button {
+		margin-right: 10px;
+	}
+}
+
+@mixin centered-spinner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+@mixin info-primary {
+	font-weight: 500;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+@mixin info-secondary {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 14px;
+}
+
+@mixin general-font {
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@mixin custom-components-color($theme) {
+	@include presentation-mixins($theme);
+	@include turnos-mixins($theme);
+	@include historia-clinica-mixins($theme);
+	@include shared-appointment-access-management-mixins($theme);
+
+	$palette-primary: map-get($theme, primary);
+	$palette-warn: map-get($theme, warn);
+
+    .primary {
+        color: mat-color($palette-primary);
+    }
+
+	.warn-background {
+        background-color: mat-color($palette-warn,200);
+		color: mat-color($palette-warn);
+	}
+
+	.headers-card-background {
+		background-color: mat-color($palette-primary, 100);
+	}
+	.warn {
+		color: mat-color($palette-warn);
+	}
+
+	.black {
+		color: mat-contrast($palette-primary, 100);
+	}
+
+	.grey {
+		color: grey;
+	}
+	.color-green {
+		color:#32C25B;
+	}
+	.color-orange {
+		color:#FF8A00;
+	}
+}
+
+@mixin font-weight-regular {
+	font-weight: 400;
+}
+
+@mixin font-weight-bold {
+	font-weight: 500;
+}

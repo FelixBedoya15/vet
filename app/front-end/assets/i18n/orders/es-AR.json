@@ -1,0 +1,96 @@
+{
+    "orders": {
+		"TITLE": "Listado de trabajo de Laboratorio",
+		"NO_DATA": "No hay informacion para mostrar",
+		"NO_DATA_FOR_FILTER": "No se encontraron resultados con los filtros aplicados. Intenta ajustar los filtros para ver más opciones",
+        "orders-detail": {
+            "REQUIRES_TRANSFER": "Requiere traslado",
+            "URGENT": "Urgente",
+			"TOOLTIP": "N° Dominio - N° Orden"
+        },
+        "filter-by-patient-component": {
+            "FILTER_BY_PATIENT": "Filtrar por paciente",
+            "TEMPORARY_ON-GUARD_PATIENT": "Paciente temporal de guardia"
+        },
+        "filter-section": {
+			"TITLE": "Filtros",
+			"CLEAN_FILTERS": "Limpiar filtros",
+			"STATE_STUDY": "Estado del estudio",
+            "SCOPE": "Ámbito",
+            "STUDY_TYPE": "Tipo de estudio",
+            "TRANSFER": "Traslado",
+			"STUDY_NAME_PLACEHOLDER": "Nombre de estudio",
+			"DATE_RANGE": "Rango de fechas",
+            "START_DATE": "Fecha inicio",
+            "END_DATE": "Fecha fin",
+			"MANDATORY_START_DATE": "La fecha inicial es obligatoria",
+			"MANDATORY_END_DATE": "La fecha final es obligatoria",
+			"MAX_DATE_RANGE": "El rango entre inicio y fin no puede superar los {{ maxDateGap }} días",
+			"patient-filters": {
+				"PATIENT_ID": "ID de paciente",
+				"PATIENT_DOCUMENT": "Nro de documento",
+				"PATIENT_NAME": "Nombre",
+				"PATIENT_LASTNAME": "Apellido"
+			}
+        },
+		"options-menu":{
+			"CANCEL_STUDY": "Anular de la lista ",
+			"TRANSFER": "Transferir"
+		},
+		"cancel-study": {
+			"TITLE": "¿Anular estudio de la lista?",
+			"INFO_TEXT": "La orden del estudio no será cancelada, pero quedará anulada de la lista.",
+			"REASON_LABEL": "Motivo de la anulación",
+			"REASON_PLACEHOLDER": "Describa motivo",
+			"CANCEL_BUTTON": "Cancelar",
+			"SUBMIT_BUTTON": "Anular de la lista"
+		},
+		"mark-study": {
+			"TITLE": "¿Marcar estudio como transferido?",
+			"STUDY_NAME": "Radiografía de tórax",
+			"INFO_TEXT": "El estudio se marcará como \"Transferido\" al LIS. Los resultados del mismo podrán visualizarse desde la solapa de estudios del paciente una vez estén disponibles.",
+			"INFO_TEXT_IMAGE_ACTIVATED": "El estudio se marcará como \"Transferido\" al RIS. Los resultados del mismo podrán visualizarse desde la solapa de estudios del paciente una vez estén disponibles.",
+			"INFO_TEXT_IMAGE_DESACTIVATED": "El estudio se marcará como \"Transferido\". Los resultados del mismo podrán visualizarse desde la solapa de estudios del paciente una vez estén disponibles.",
+			"CANCEL_BUTTON": "Cancelar",
+			"SUBMIT_BUTTON": "Marcar como transferido"
+		},
+		"snack-bar-messages": {
+			"SUCCESS_TRANSFER": "El estudio se marcó como Transferido",
+			"SUCCESS_CANCEL": "El estudio se marcó como Anulado",
+			"ERROR": "No pudo realizarse el cambio de estado del turno. Vuelva a intentarlo en un momento"
+		},
+		"optionsMenuComponent":{
+			"CANCEL_LIST": "Anular de la lista "
+		},
+		"utils": {
+			  "scopeOptions": {
+				"GUARD": "Guardia",
+				"INTERNMENT": "Internación"
+			  },
+			  "stateStudy": {
+				"PENDING": "Pendiente",
+				"TRANSFERRED": "Transferido",
+				"CANCELED": "Anulado",
+				"COMPLETED": "Completado"
+			  },
+			  "studyTypeOptions": {
+				"ROUTINE": "Rutina",
+				"URGENT": "Urgente"
+			  },
+			  "transferOptions": {
+				"REQUIRES": "Requiere",
+				"NOT_REQUIRED": "No requiere"
+			  }
+		},
+		"cancel-detail": {
+			"TITLE": "Detalle de estudio anulado",
+			"SUB_TITLE":"Motivo de anulación",
+			"CANCEL_BY": "Anulado por"
+		},
+		"labels": {
+			"HOSPITALIZATION":"Internación",
+			"GUARD":"Guardia",
+			"DETAIL":"Ver detalle"
+		}
+    }
+}

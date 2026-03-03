@@ -1,0 +1,549 @@
+{
+	"turnos": {
+		"CONSULTATION": "Consulta",
+		"PRACTICE": "Práctica / Procedimiento",
+		"SEARCH_BY_SERVICE": "Servicio / Subservicio",
+		"SEARCH_BY_CLINICAL_SPECIALTY": "Especialidad, profesional o alias",
+		"SEARCH_BY_KEYWORD": "Palabra clave",
+		"SEARCH_BY": "Búsqueda por",
+		"home": {
+			"TITLE": "Gestión de turnos",
+			"actions": {
+				"CREATE_AGENDA": "Crear agenda",
+				"PROFESSONAL": "Profesionales",
+				"NEW_AGENDA": "Nueva agenda",
+				"SEARCH_APPOINTMENTS": "Buscar turnos",
+				"REGISTER_UNSATISFIED_DEMAND": "Registrar como demanda insatisfecha",
+				"CHANGE_DOCTOR_OFFICE": "Cambiar consultorio",
+				"CONFIRM_DOCTOR_OFFICE": "Confirmar consultorio",
+				"PROFESSIONALS_SERVICE": "Profesionales / Servicio"
+			},
+			"PROFESSIONAL_SEARCH": "Profesional",
+			"SPECIALTY_SEARCH": "Especialidad",
+			"ALIAS_SEARCH": "Alias",
+			"MODALITY_SEARCH": "Modalidad",
+			"SELECT_AGENDA": "Seleccione una agenda",
+			"CONFIRM_DOCTOR_OFFICE_DISCLAIMER": "Confirme consultorio para habilitar la agenda de turnos.",
+			"NO_AGENDA_MSG_TITLE": "El profesional no posee una agenda activa.",
+			"NO_AGENDA_MSG_SUBTITLE": "Creá una agenda para gestionar turnos.",
+			"AGENDA_NOT_FOUND": "Agenda no encontrada",
+			"ACTIVES_AGENDAS_LABEL": "ACTIVAS",
+			"EXPIRED_AGENDAS_LABEL": "VENCIDAS",
+			"SEARCH_BY_PROFESSIONAL": "Oferta por profesional",
+			"SEARCH_BY_INSTITUTION": "Oferta en institución",
+			"CARE_NETWORK_OFFER": "Oferta en red de atención",
+			"SEARCH_BY_INSTITUTION_CRITERIA": "Seleccione los criterios para la búsqueda de turnos disponibles por institución:",
+			"AVAILABLE_DAYS": "Días disponibles",
+			"TIME_RANGE": "Rango horario",
+			"START_DATE": "Fecha de inicio",
+			"END_DATE": "Fecha de fin",
+			"SEARCH_RANGE": "Período de búsqueda:",
+			"SEARCH_DISCLAIMER": "Se traerán resultados desde la fecha seleccionada hasta 21 días en adelante",
+			"ASSIGN_APPOINTMENT": "Asignar turno",
+			"APPOINTMENTS_FOUND": "Turnos disponibles encontrados:",
+			"RESULT_DISCLAIMER": "Si no se encuentra el resultado esperado, por favor refine la búsqueda.",
+			"CARE_LINE_TOOLTIP": "Línea de cuidado",
+			"SECTOR_CONSULTORY_TOOLTIP": "Consultorio y sector",
+			"PROFESSIONALS_TOOLTIP": "Profesionales",
+			"PERCENTAGE_PROTECTED_APPOINTMENT": "% de turnos protegidos por día",
+			"REQUESTS": "solicitudes",
+			"PRACTICES": "Prácticas",
+			"NOT_FOUND_APPOINTMENTS": "¿No encuentra turnos disponibles para el paciente?",
+			"SEARCH_IN_CARE_NETWORK": "Buscar turnos en red de atención",
+			"SELECT_ANOTHER_DOCTOR_OFFICE": "Seleccione otro consultorio",
+			"SERVICE": "Servicio",
+			"SELECT_SERVICE": "Seleccionar servicio",
+			"SUBSERVICE": "Sub-servicio (Opcional)",
+			"SELECT_SUBSERVICE": "Seleccionar sub-servicio",
+			"SELECT_PROFESSIONAL": "Seleccionar profesional",
+			"SELECT_CLINICAL_SPECIALTY": "Seleccionar especialidad",
+			"SELECT_PRACTICE": "Seleccionar práctica/procedimiento",
+			"JOINT_DIARY": " (conjunta)",
+			"ALIAS": "Alias",
+			"SELECT_ALIAS": "Seleccionar alias",
+			"KEYWORD": "Búsqueda por palabra clave",
+			"KEYWORD_PLACEHOLDER": "Busqueda por palabra clave (servicio, sub-servicio)",
+			"SWITCH_SEARCH_ALL_HIERARCHICAL_UNIT": "Ver todas las unidades jerárquicas",
+			"SEARCH_APPOINTMENT_BY_INSTITUION_TITLE": "Búsqueda de turnos por institución",
+			"messages": {
+				"NO_SPECIFIED_DATE": "Por favor ingrese una fecha para realizar la búsqueda",
+				"NO_APPOINTMENT-AVAILABLE": "No se encontraron turnos disponibles",
+				"SUGGESTION" : "Intente refinando los criterios de búsqueda o en caso contrario puede: ",
+				"TITLE_REGISTER_UNSATISFIED_DEMAND": "¿Registrar como demanda insatisfecha?",
+				"MESSAGE_REGISTER_UNSATISFIED_DEMAND": "Si confirma la demanda insatisfecha quedará registrado que no hay turnos disponibles bajo los criterios buscados, a fin de evaluar y mejorar la oferta de turnos en el futuro.",
+				"SUCCESS_REGISTER_UNSATISFIED_DEMAND": "Búsqueda de turnos registrada como demanda insatisfecha",
+				"NO_ACCEPT_FACE_TO_FACE_APPOINTMMENTS" : "La franja horaria seleccionada no admite turnos presenciales"
+			}
+		},
+		"MODALITY_ATTENTION":"Modalidad de atención",
+		"ON_SITE_ATTENTION": "Presencial",
+		"PATIENT_VIRTUAL_ATTENTION": "Teleconsulta con paciente",
+		"SECOND_OPINION_VIRTUAL_ATTENTION":"Teleconsulta con segunda opinión",
+		"TYPE_ATTENTION": "Tipo de atención",
+		"OPTIONAL": "(Opcional)",
+		"modality-titles": {
+			"ON_SITE_ATTENTION": "Turnos presenciales encontrados",
+			"PATIENT_VIRTUAL_ATTENTION": "Turnos por teleconsulta encontrados",
+			"SECOND_OPINION_VIRTUAL_ATTENTION": "Turnos por segunda opinión encontrados"
+		},
+		"order-type": {
+			"TITLE": "Orden médica",
+			"SELECT_MEDICAL_ORDER": "Seleccionar orden médica",
+			"SELECT_ORDER": "Seleccionar orden",
+			"TRANSCRIBE_ORDER": "Transcribir orden",
+			"UPLOAD_LATER": "Cargar más tarde",
+			"NOT_REQUIRED": "No requiere"
+		},
+		"search-appointments-in-care-network": {
+			"SEARCH_IN_CARE_NETWORK_CRITERIA": "Seleccione los criterios para la búsqueda de turnos disponibles en la red de atención:",
+			"CARELINE": "Línea de cuidado",
+			"PROVINCE": "Provincia",
+			"DEPARTMENT": "Partido",
+			"INSTITUTION": "Institución",
+			"SPECIALTY": "Especialidad",
+			"DATE_PERIOD_NOTE": "Se traerán resultados desde la fecha seleccionada hasta 7 días en adelante",
+			"SEARCH_START_DATE": "Fecha de inicio de búsqueda",
+			"NOT_FOUND_APPOINTMENTS": "No se han encontrado turnos disponibles con esos criterios de búsqueda.",
+			"INVALID_FORM_MESSAGE": "Debe ingresar todos los campos obligatorios marcados para la búsqueda",
+			"AVAILABLE_APPOINTMENTS_TITLE": "Turnos disponibles encontrados",
+			"BACK_TO_INSTITUTION_TAB": "Volver a turnos en institución",
+			"IN_PERSON_APPOINTMENTS_FOUND": "Turnos presenciales encontrados",
+			"TELECONSULTATION_APPOINTMENTS_FOUND": "Turnos por teleconsulta encontrados",
+			"SECOND_OPINION_TELECONSULTATION_APPOINTMENTS": "Turnos por teleconsulta de segunda opinión"
+		},
+		"appointment-icons": {
+			"REGULATION": "Protegido por regulación",
+			"CARE_LINE": "Protegido por línea de cuidado",
+			"ON_SITE": "Protegido por reserva online"
+		},
+		"appointment-result-view": {
+			"JOINT_DIARY": "conjunta"
+		},
+		"appointment-event": {
+			"OVERTURN": "Atiende {{overturnCount}} sobreturno",
+			"OVERTURNS": "Atiende {{overturnCount}} sobreturnos",
+			"NO_OVERTURN": "No atiende sobreturnos",
+			"PROTECTED_APPOINTMENT_REGULATION": "Regulación",
+			"NO_PROTECTED_APPOINTMENT": "No atiende turnos protegidos"
+		},
+		"agenda-setup": {
+			"NEW_AGENDA": "Nueva agenda",
+			"EDIT_AGENDA": "Editar agenda",
+			"CONFIRM_NEW_AGENDA": "¿Desea confirmar la creación de esta nueva agenda?",
+			"CONFIRM_EDIT_AGENDA": "¿Desea confirmar la edición de esta agenda?",
+			"OVERTURN_COUNT": " Cantidad de sobreturnos",
+			"MEDICAL_ATTENTION_TYPE": "Tipo de atención",
+			"SELECT_DAYS_TYPE": "Días y tipo de consulta",
+			"SELECT_DAYS_TYPE_SUBTITLE": "Seleccione tipos de consulta para cada día",
+			"RESPONSIBLE_PROFESSIONAL": "Profesional responsable",
+			"CONJOINT_DIARY": "Agenda conjunta",
+			"TEMPORARY_REMPLACEMENT":"Es un reemplazo temporal",
+			"PROFESSIONAL_REMPLACEMENT":"Profesional reemplazado",
+			"OTHER_PROFESSIONALS": "Otros profesionales",
+			"ADD_ANOTHER_PROFESSIONAL": "Añadir otro profesional",
+			"CHOOSE_PROFESSIONAL": "Seleccione profesional",
+			"CHOOSE_PROFESSIONAL_ERROR": "Por favor seleccione un profesional adjunto",
+			"OPTIONAL_ALIAS": "Alias (Opcional)",
+			"ALIAS": "Alias",
+			"ALIAS_HINT_TEXT": "Identificador para la oferta de turnos",
+			"OPTIONAL_CARELINE": "Línea de cuidado (Opcional)",
+			"CARELINE": "Seleccionar línea de cuidado",
+			"PROTECTED_APPOINTMENT_PERCENTAGE_RANGE": "Ingrese un valor entre 0 y 100%. Considere que se redondea hacia abajo.",
+			"PROTECTED_APPOINTMENT_PERCENTAGE_RANGE_EXAMPLE": "Por ej. valores entre 1 y 9% pueden no implicar turnos protegidos en una agenda con menos de 10 turnos totales.",
+			"VALIDATION_PROTECTED_APPOINTMENT_PERCENTAGE_AND_CARELINE": "Ingrese 0 como porcentaje de turnos protegidos o agregue al menos una linea de cuidado.",
+			"MORE": "más",
+			"DURATION_OF_THE_CONSULTATION":"Duración de la consulta",
+			"CREATE_COLOR_LABEL": "Crear etiqueta de colores",
+			"COLOR_LABEL_DESCRIPTION": "Creá etiquetas de colores, para asignárselas a los turnos que tengan alguna característica especifica que quieras destacar. Esto no afectará a los colores de los estados de los turnos.",
+			"ADD_LABEL": "Agregar etiqueta",
+			"SECTOR": "Sector",
+			"HIERARCHICAL_UNIT": "Unidad Jerárquica",
+			"DIARY_TYPE": "Tipo de agenda",
+			"PRACTICE_PLACEHOLDER": "Seleccionar prácticas",
+			"ADD_PRACTICES_PROCEDURES": "+ Agregar prácticas/procedimientos",
+			"DELETE_LABEL": "Eliminar etiqueta",
+			"DELETE_SUBTITLE": "Al confirmar, se eliminará la etiqueta de todos los turnos donde fue utilizada",
+			"DELETE_CONFIRMATION": "¿Eliminar etiqueta de todos modos?",
+			"OK_BUTTON_DELETE": "Sí, eliminar",
+			"CANCEL_BUTTON_DELETE": "No, cancelar",
+			"CONFIGURATION_TYPE":"Configuración de agenda",
+			"DAY_RANGE":"Rango de días",
+			"OPENING_HOURS_OCCUPIED_BY_OTHER_DIARY": "Horario ocupado por otra agenda:",
+			"OPENING_HOURS_OCCUPIED": "Horario ocupado",
+			"SPONTANEOUS_MEDICAL_ATTENTION_TYPE": "Atención Espontánea",
+			"SCHEDULED_MEDICAL_ATTENTION_TYPE": "Atención Programada",
+			"DOCTORS_OFFICE_REQUIRED": "Campo requerido",
+			"ADD_AGE_RANGE":"+ Agregar nuevo rango",
+			"AGE_RANGE_TITLE": "Rango etario",
+			"AGE_RANGE_LABEL": "de {{minRange}} a {{maxRange}} {{unitAge}}",
+			"DIARY_RESPONSIBLE": "Responsable de agenda",
+			"HIERARCHICAL_UNIT_SERVICE": "Servicio / Unidad Jerárquica",
+			"SELECT_HIERARCHICAL_UNIT_SERVICE": "Seleccionar Unidad Jerárquica",
+			"dialog-age-range": {
+				"TITLE":"Crear rango etario para la agenda",
+				"EDIT_TITLE": "Editar rango etario de la agenda",
+				"CURRENT_RANGE": "Rango actual",
+				"UNIT":"Unidad",
+				"YEAR":"años",
+				"MONTH":"meses",
+				"AGE_MIN":"Edad mínima",
+				"AGE_MAX":"Edad máxima",
+				"ADD_RANGE":"Agregar rango etario",
+				"MIN_ERROR_YEAR":"Debe ser mayor al valor 0",
+				"MIN_ERROR_MONTH":"Debe ser mayor al valor 1",
+				"MAX_ERROR_YEAR":"Debe ser menor al valor 100",
+				"MAX_ERROR_MONTH":"Debe ser menor al valor 12",
+				"MAX_MIN_GREATER_ERROR": "Debe ser mayor a la edad mínima",
+				"SUCCESS_AGE_RANGE": "Rango etario creado con éxito",
+				"SUCCESS_EDIT_RANGE": "Rango etario editado con éxito",
+				"ERROR_AGE_RANGE": "Error al crear rango etario",
+				"DUPLICATE_AGE_RANGE": "Rango etario repetido" ,
+				"SAVE_CHANGES": "Guardar cambios",
+				"MESSAGE_CALENDAR_SLOT_EXISTS": "Al crear un nuevo rango etario, se suma como “seleccionado” a la configuración de las franjas existentes. ",
+				"MESSAGE_CALENDAR_SLOT_EXISTS_EDIT": "La edición impactará en las franjas ya configuradas.",
+				"MESSAGE_CALENDAR_SLOT_EXISTS_EDIT_MODE": "Este cambio impactará en las franjas ya configuradas. No afectará los turnos ya asignados. "
+			},
+			"dialog-delete-age-range": {
+				"TITLE": "Eliminar rango etario de la agenda",
+				"SAVE": "Eliminar rango etario",
+				"SUCESS": "Rango etario eliminado con éxito",
+				"ERROR" : "Error al eliminar rango etario",
+				"MESSAGE_CALENDAR_SLOT_EXISTS_DELETE" : "La eliminación impactará en las franjas ya configuradas.",
+				"MESSAGE_CALENDAR_SLOT_EXISTS_DELETE_EDIT_MODE" : "Este cambio impactará en las franjas ya configuradas. No afectará los turnos ya asignados. "
+				},
+			"dialog": {
+				"TITLE": "Nueva franja horaria",
+				"EDIT": "Editar franja horaria",
+				"BOOKING": "Disponible para turnos online",
+				"MODALITY": "Modalidad",
+				"TAKE_SHIFTS_TITLE": "Turnos Protegidos",
+				"ATTENDS_FACE_TO_FACE": "Atiende presencial",
+				"TAKE_PROTECTED_ONLINE": "Atiende turnos protegidos por linea de cuidado",
+				"SERVES_SHIFTS_PROTECTED_BY_REGULATION": "Atiende turnos protegidos por regulación",
+				"ONLINE_APPOINTMENTS": "Turnos online (centro de llamado y autogestión)",
+                "REFERRAL_ORDER": "Requiere orden de derivación",
+				"ATTEND_SHIFTS_PROTECTED_BY_LINES_OF_CARE": "Atiende turnos protegidos por líneas de cuidado",
+				"ERROR": "No se puede destildar esta opción porque hay turno asignados de este tipo",
+				"ATTENDS_BY_TELECONSULTATION_OF_PATIENT": "Atiende teleconsultas a pacientes",
+				"ATTENDS_BY_TELECONSULTATION_OF_SECOND_OPINION":"Atiende teleconsultas de segunda opinión",
+				"CONFIRM": "Crear nueva franja"
+			},
+			"confirm_dialog": {
+				"CREATION_TITLE": "Nueva agenda",
+				"EDITION_TITLE": "Editar agenda"
+			},
+			"overlap_confirm_dialog": {
+				"TITLE": "¿Confirmar agenda?",
+				"CONTENT": "Existen otras agendas con franjas horarias superpuestas en el consultorio seleccionado. ¿Desea confirmar la agenda de todos modos?"
+			},
+			"messages": {
+				"SUCCESS": "La agenda se guardó exitosamente",
+				"TURN_ERROR": "Error: Superposición de rango horario en consultorio",
+				"DIARY_LABEL_REQUIRED": "Debes completar la etiqueta"
+			}
+		},
+		"delete-agenda": {
+			"DELETE": "¿Eliminar agenda?",
+			"WARNING": "Una vez realizada esta acción la agenda no podrá ser recuperada.",
+			"messages": {
+				"SUCCESS": "La agenda se eliminó exitosamente"
+			}
+		},
+		"booking": {
+			"PHONE_PREFIX": "Prefijo",
+			"PHONE_NUMBER": "Número telefónico",
+			"MEDICAL_COVERAGE": "Cobertura médica",
+			"DOCUMENT_NUMBER": "Nro de documento",
+			"VALIDATE": "Validar paciente",
+			"VALIDATE_PERSON": "Validar orden y paciente",
+			"VALIDATE_ORDER": "Validar solo orden",
+			"BOOKING": "Reserva de turno online",
+			"SLOT_NOT_AVAILABLE": "Este turno fue ocupado por una reserva online",
+			"CANCEL_BOOKING": "Cancelar reserva",
+			"BOOKING_BY": "Solicitada por:",
+			"FULL_PHONE_NUMBER": "Tel: {{phonePrefix}}{{phoneNumber}}",
+			"EMAIL": "Mail: {{email}}",
+			"CLOSE": "Cerrar",
+			"BUTTON_SEE_PATIENT": "Ir a Paciente",
+			"LINK_FILE": "Ver orden de derivación",
+			"LINK_FILE_APPOINTMENT": "Ver orden",
+			"LABEL_FILE":"Orden",
+			"CONFIRM":"Confirmar reserva",
+			"STEP_1":"Validar paciente",
+			"ORDER_VALIDATED":"Orden validada",
+			"VALIDATED_SUCCESS": "Orden de derivación validada ",
+			"VALIDATED_ERROR":"Error en la validación de la orden"
+		},
+		"new-appointment": {
+			"NEW_APPOINTMENT": "Nuevo turno",
+			"BUTTON_ADD_PATIENT": "Crear paciente",
+			"BUTTON_SEARCH": "Buscar",
+			"STEP_0": "Modalidad",
+			"STEP_1": "Búsqueda de paciente",
+			"STEP_2": "Información paciente",
+			"STUDIES_STEP": "Estudios",
+			"TRANSCRIBE_ORDER_STEP": "Transcribir orden",
+			"REFERENCE_STEP_3": "Referencia",
+			"MOTIVE_STEP_3": "Motivo",
+			"ASSOCIATED_REFERENCE": "Referencia asociada",
+			"TEMPORARY_PATIENT": "Paciente temporal",
+			"PATIENT_ID": "ID del paciente",
+			"PHONE_NUMBER": "Número Telefónico",
+			"PHONE_PREFIX": "Prefijo",
+			"EMAIL":"Email",
+			"EMAIL_PATIENT":"Mail del paciente",
+			"MESSAGE_UPDATE_EMAIL":"El paciente será notificado via email del cambio de turno",
+			"ACCEPT": "Aceptar",
+			"PRINT_APPOINTMENT_BUTTON": "Imprimir turno",
+			"ASSIGNED_APPOINTMENT": "Turno asignado",
+			"PROFESSIONAL_EMAIL":"Mail del profesional solicitante",
+			"MODALITY_SELECT":"Seleccione modalidad",
+			"ORDER_STUDIES_ALERT": "{{quantity}} estudios de la orden no pueden realizarse en esta agenda: - {{studies}}",
+			"ORDER": "Orden #{{id}} - {{studies}}",
+			"PROFESSIONAL": "Profesional",
+			"ENTER_PROFESSIONAL_APPLICANT": "Ingrese profesional solicitante",
+			"INSTITUTION": "Institución",
+			"ENTER_INSTITUTION_APPLICANT": "Ingrese institución solicitante",
+			"PROBLEM": "Problema asociado",
+			"ENTER_ASSOCIATE_PROBLEM": "Seleccione problema asociado",
+			"OBSERVATIONS": "Observaciones",
+			"ORDER_ATTACHMENT": "Adjuntar orden externa",
+			"ORDER_ATTACHMENT_EXTENSION_ERROR": "Sólo se admiten archivos en formato jpg, jpeg, png, webp o pdf",
+			"fields": {
+				"DOCUMENT_TYPE": "Tipo de documento",
+				"DOCUMENT_NUMBER": "Nº de documento"
+			},
+			"EDIT": "Editar turno recurrente",
+			"messages": {
+				"ERROR": "Paciente no encontrado",
+				"SUCCESS": "Paciente encontrado",
+				"APPOINTMENT_ERROR": "Error al confirmar el turno",
+				"APPOINTMENT_SUCCESS": "Turno confirmado",
+				"NOT_RESPONSIBLE": "Solo el responsable de la agenda puede crear turnos",
+				"COULD_NOT_ASSOCIATE": "No se pudo asociar el turno creado a la referencia seleccionada"
+			},
+			"appointment-exists": {
+				"TITLE": "Otro turno en la misma fecha",
+				"ASSIGNMENT-QUESTION": "¿Desea conceder el turno de todos modos?",
+				"buttons": {
+					"ASSIGN": "Si, asignar turno",
+					"NOT-ASSIGN": "No, cancelar"
+				}
+			},
+			"expired-appointment": {
+				"TITLE": "Registrar turno vencido",
+				"SUBTITLE": "Al registrar un turno como “Turno vencido”, el mismo se marcará en estado “Atendido” y permitirá el registro posterior de la consulta por parte del profesional médico.",
+				"MESSAGE_SUCCESS": "Se registro el turno vencido correctamente.",
+				"MESSAGE_ERROR": "No se permiten nuevos sobreturnos"
+			},
+			"range-age": {
+                "INFO":"Destinado a personas de",
+                "AGE_RANGE_LABEL": "{{minRange}} a {{maxRange}} {{unitAge}}",
+				"OUT_RANGE": "Paciente fuera de rango etario",
+				"OUT_RANGE_TEXT": "Este turno está destinado a pacientes",
+				"OUT_RANGE_PATIENT":"El paciente ingresado tiene {{age}} {{unit}}. "
+            }
+		},
+		"cancel": {
+			"TITLE": "Cancelar turno",
+			"CONFIRM": "¿Desea cancelar el turno seleccionado?",
+			"SUCCESS": "El turno fue cancelado exitosamente",
+			"PLURAL_SUCCESS": "Los turnos fueron cancelados exitosamente",
+			"CANCEL": "Eliminar turno recurrente",
+			"confirm-cancel": {
+				"TITLE": "Dejar de repetir eliminará los turnos posteriores",
+				"CONTENT": "Si este turno pertenece a una recurrencia se eliminarán los turnos posteriores pertenecientes a la misma. ¿Está seguro que desea dejar de repetir el turno?",
+				"CANCEL": "Cancelar",
+				"CONFIRM": "Confirmar"
+			}
+		},
+		"overturns": {
+			"CREATE": "Crear sobreturno",
+			"messages": {
+				"ERROR": "No es posible crear un sobreturno en este rango horario"
+			}
+		},
+		"appointment": {
+			"TITLE": "Turno",
+			"PRINT": "Imprimir turno",
+			"BUTTON_CLINICAL_HISTORY": "Ver historia clínica",
+			"BUTTON_SEE_PATIENT": "Ir a Paciente",
+			"EDIT_PATIENT_INFO": "Editar información del paciente",
+			"EDIT_STUDIES": "Editar estudios",
+			"APPOINTMENT_STATE": "Estado de turno",
+			"EDIT_APPOINTMENT_INFO": "Editar datos de turno",
+			"ABSENCE_MOTIVE": "Motivo de ausencia",
+			"DESCRIBE_MOTIVE": "Describa el motivo",
+			"MOTIVE": "Motivo",
+			"SAVE": "Guardar",
+			"CANCEL": "Cancelar",
+			"NO-INFO": "Sin información",
+			"PROTECTED": "*solicitado como turno protegido",
+			"ASSIGNED_BY": "Asignado por",
+			"BOOKING": "Turno online",
+			"JOIN_CALL":"Unirse a la teleconsulta",
+			"DAY":"Dia",
+			"MONTH":"Mes",
+			"YEAR":"Año",
+			"HOUR":"Hora",
+			"RECURRING_TYPE": "Recurrencia",
+			"RECURRING_ERROR": "No hay disponibilidad de turnos en alguno de estos dias",
+			"MEDICAL_ORDER": "Órden médica",
+			"ORDER_NUMBER": "Orden #{{id}}",
+			"NOT_REQUIRED_ORDER": "No requiere orden",
+			"TRANSCRIBED_ORDER": "Transcrita",
+			"PENDING_ORDER": "Orden pendiente",
+			"EDIT_ORDER_STUDIES_PATIENT_DATA": "Editar orden, estudios y datos de paciente",
+			"recurring-dialog": {
+				"TITLE": "Personalizar repeticiones",
+				"REPEAT_EVERY": "Repetir cada",
+				"REPEATS_ON": "Se repite el",
+				"WEEKS": "semana/s",
+				"END_DATE": "Fecha de finalización",
+				"WITHOUT_END_DATE": "Sin fecha de finalización",
+				"AFTER_FEW_WEEKS": "Finaliza en",
+				"CANCEL": "Cancelar",
+				"CONFIRM": "Confirmar"
+			},
+			"cancel-dialog": {
+				"CURRENT_TURN": "Este turno",
+				"CURRENT_AND_NEXTS_TURNS": "Este turno y los posteriores",
+				"ALL_TURNS": "Todos los turnos"
+			},
+			"date": {
+				"EDIT_DATE_TIME": "Editar fecha y hora del turno",
+				"UPDATE_SUCCESS": "La fecha y hora del turno se actualizaron exitosamente"
+			},
+			"phoneNumber": {
+				"SUCCESS": "El teléfono se modificó correctamente",
+				"PHONE_NUMBER": "Teléfono",
+				"PHONE_PREFIX": "Prefijo"
+			},
+			"coverageData": {
+				"COVERAGE_DATA": "Cobertura Médica",
+				"UPDATE_SUCCESS": "Los datos del turno fueron actualizados",
+				"NOT_ENABLED": "La cobertura médica se encuentra deshabilitada"
+			},
+			"observations": {
+				"OBSERVATIONS": "Observaciones",
+				"UPDATE_SUCCESS": "Las observaciones se han modificado correctamente",
+				"ADD_OBSERVATION": "+ Agregar observaciones",
+				"ADD_OBSERVATION_SUBTITLE": "Ingrese observaciones..."
+			},
+			"labels": {
+				"ADD_LABEL": "Agregar etiqueta",
+				"TITLE": "Etiqueta",
+				"SUBTITLE": "Para crear, editar o eliminar etiquetas dirigirse a Editar Agenda",
+				"ASSOCIATE_LABEL": "Asociar una Etiqueta",
+				"UPDATED_LABEL": "Se ha actualizado la etiqueta",
+				"ERROR_UPDATE_LABEL": "No se ha podido actualizar la etiqueta"
+			},
+			"reports": {
+				"DOWNLOAD_REPORT": "Descargar informe",
+				"ANEXO": "Anexo II",
+				"FORM": "Formulario V"
+			},
+			"confirm-dialog": {
+				"CONTENT": "Si confirma el turno no podrá actualizar la cobertura luego.",
+				"CANCEL": "Si, actualizar cobertura",
+				"CONFIRM": "No, confirmar turno",
+				"QUESTION": "¿Desea actualizarla ahora?"
+			},
+			"scaned_identification": {
+				"MESSAGE_SUCCESS": "Validación digital presencial mediante acreditación de identidad",
+				"MESSAGE_PENDING": "No se ha validado presencialidad en forma digital"
+			},
+			"studies-dialog": {
+				"TITLE": "Editar prácticas del turno",
+				"SUCCESS": "Se han actualizado los estudios"
+			}
+		},
+		"calendar-configuration":{
+			"MONTH_RESTRICTION": "Agenda restringida por mes",
+			"DAYS_RESTRICTION":"Agenda restringida por un rango de {{dia}} dias",
+			"DAY_RESTRICTION":"Agenda restringida por un rango de {{dia}} dia"
+		},
+		"report": {
+			"TITLE": "Descargar informes",
+			"ANEXO": "Anexo II",
+			"FORM": "Formulario V"
+		},
+		"calendar-view-professional": {
+			"TITLE": "Agenda de turnos",
+			"GO_TO_DIARY": "Ir a turnos"
+		},
+		"block": {
+			"TITLE": "Bloquear/Desbloquear agenda",
+			"BLOCK": "BLOQUEAR",
+			"UNBLOCK": "DESBLOQUEAR",
+			"START_DATE": "Fecha inicio",
+			"END_DATE": "Fecha fin",
+			"DATE_SELECTION_ERROR": "Seleccione una fecha",
+			"HOURS_TO": "a",
+			"MOTIVE_SELECTION_ERROR": "Por favor seleccione un motivo",
+			"CONFIRM": "CONFIRMAR",
+			"BLOCK_COMPLETE_RANGE": "Bloquear rango horario completo",
+			"COMPLETE_RANGE": "Rango horario completo",
+			"ERROR_MESSAGE": "No es posible agragar un turno en un horario bloqueado"
+		},
+		"day-of-week": {
+			"MONDAY": "Lunes",
+			"TUESDAY": "Martes",
+			"WEDNESDAY": "Miércoles",
+			"THURSDAY": "Jueves",
+			"FRIDAY": "Viernes",
+			"SATURDAY": "Sábado",
+			"SUNDAY": "Domingo"
+		},
+		"holiday": {
+			"TITLE": "Día feriado",
+			"HOLIDAY_RELATED": "corresponde a un día feriado.",
+			"HOLIDAY_DISCLAIMER": "¿Desea asignar un turno de todos modos?",
+			"OK_BUTTON": "No, elegir otra fecha",
+			"CANCEL_BUTTON": "Si, asignar turno"
+		},
+		"search_references": {
+			"CONTINUES_UNDER_OBSERVATION": "Continúa en observación",
+			"TREATMENT_BEGINS_IN_A_EFERENCE_CENTER":"Inicia tratamiento en centro de referencia",
+			"REQUIERES_COMPLEMENTARY_STUDIES":"Requiere estudios complementarios",
+			"ADMINISTRATIVE_CLOSURE": "Cierre administrativo de referencia",
+			"REFERENCE_REQUESTED": "Referencia solicitada"
+		},
+		"report-complete-data": {
+			"SHOW_SUCCESS_OBSERVATION": "La observación se agregó correctamente",
+			"SHOW_ERROR_OBSERVATION": "Error al cargar la observación",
+			"SHOW_SUCCESS_EDIT_OBSERVATION": "La observación se editó correctamente",
+			"SHOW_ERROR_EDIT_OBSERVATION": "Error al editr la observación",
+			"SHOW_SUCCESS_DELETE_OBSERVATION": "La observación se eliminó correctamente",
+			"SHOW_ERROR_DELETE_OBSERVATION": "Error al eliminar la observación"
+		},
+		"group-appointment": {
+			"SELECT_APPOINTMENT": "Seleccionar turno",
+			"DNI": "DNI {{DNI}}",
+			"ID": " - ID {{ID}}",
+			"SEE_DETAIL": "Ver detalle"
+		},
+		"change-doctors-office-popup": {
+			"TITLE": "Cambiar consultorio",
+			"SUBTITLE": "Selecciona a continuación el sector y consultorio que será ocupado el día de la fecha",
+			"SECTOR_PLACEHOLDER": "Seleccione sector",
+			"DOCTORS_OFFICE_PLACEHOLDER": "Seleccione consultorio",
+			"DOCTORS_OFFICE": "Consultorio",
+			"CONFIRM_BUTTON": "Confirmar consultorio",
+			"SUCCESS_SNACKBAR": "Se realizo el cambio de consultorio correctamente"
+		},
+		"search-by-institutions-error-state": {
+			"SELECT_SERVICE": "Debe seleccionar un servicio",
+			"SELECT_CLINICAL_SPECIALTY_PROFESSIONAL_OR_ALIAS":"Debe seleccionar una especialidad, un profesional o un alias",
+			"REQUIRED_FIELD": "Campo requerido"
+		},
+		"confirm-doctors-office": {
+			"POPUP_TITLE": "Confirmar consultorio",
+			"SUCCESS_SNACKBAR": "Se confirmó el consultorio correctamente"
+		},
+		"add-practices-procedures": {
+			"TITLE": "Agendas de prácticas no habilitadas",
+			"CONTENT": "Para poder configurar una agenda de prácticas es necesario tener habilitado al menos un grupo terminológico de prácticas. Por favor, contacte a un administrador de dominio para resolverlo."
+		}
+	}
+}

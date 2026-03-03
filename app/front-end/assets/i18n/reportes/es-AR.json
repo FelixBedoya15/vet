@@ -1,0 +1,74 @@
+{
+	"reportes": {
+		"TITLE": "Reportes",
+		"form": {
+			"TITLE": "Generar nuevo reporte",
+			"REPORT_TYPE": "Tipo de reporte",
+			"START_DATE": "Fecha de inicio",
+			"START_DATE_PLACEHOLDER": "Seleccionar fecha de inicio",
+			"END_DATE": "Fecha de fin",
+			"END_DATE_PLACEHOLDER": "Seleccionar fecha de fin",
+			"DAYS_RANGE": "Seleccionar rango de fechas",
+			"SPECIALTY": "Especialidad",
+			"SERVICE": "Servicio",
+			"SPECIALTY_PLACEHOLDER": "Especialidades",
+			"PROFESSIONAL": "Profesional",
+			"PROFESSIONAL_PLACEHOLDER": "Profesionales",
+			"SUBMIT": "Generar reporte",
+			"REQUIRED_FIELD": "Obligatorio *",
+			"HIERARCHICAL_UNIT_TYPE": "Tipo de unidad jerárquica",
+			"HIERARCHICAL_UNIT_TYPE_PLACEHOLDER": "Tipos de unidades jerárquicas",
+			"HIERARCHICAL_UNIT": "Unidad jerárquica",
+			"HIERARCHICAL_UNIT_PLACEHOLDER": "Unidades jerárquicas",
+			"INCLUDE_DESCENDANTS": "Incluir descendientes",
+			"APPOINTMENT_STATE": "Estado de turno",
+			"APPOINTMENT_STATE_PLACEHOLDER": "Estados de turno",
+			"errors": {
+				"FECHA_INICIO_POSTERIOR_FECHA_FIN": "La fecha de inicio debe ser menor o igual a la fecha de fin",
+				"FECHA_INICIO_POSTERIOR_HOY": "La fecha de inicio debe ser anterior o igual a la fecha actual",
+				"FECHA_INICIO_POSTERIOR_MAXIMO": "La fecha de inicio debe ser al menos {{days}} días antes del maximo permitido",
+				"FECHA_FIN_MIN": "La fecha de fin debe ser posterior o igual a la fecha de inicio",
+				"MAX_DATE_RANGE": "El rango de fechas no debe superar los {{dateRange}} días"
+			}
+		},
+		"monthly-report": {
+			"TITLE": "Mensuales descargables",
+			"PREPARING_MESSAGE": "Estamos generando su reporte, este proceso puede demorar unos minutos. Si lo desea, puede regresar más tarde para visualizarlo. Además, si tiene un correo electrónico registrado en el sistema, le notificaremos cuando el reporte esté disponible para su descarga.",
+			"ERROR_MESSAGE": "Hubo un error al generar el reporte solicitado {{createdOn}}. Por favor, comunicarse con el administrador del sistema.",
+			"RETRY_REPORT_BUTTON": "Generar reporte nuevamente",
+			"ERROR_MORE_DETAILS": "Mas detalle: {{details}}"
+		},
+		"reportes-estadisticos": {
+			"TITLE": "Reportes estadísticos"
+		},
+		"diabetic-patients": {
+			"TITLE": "Pacientes diabéticos"
+		},
+		"hypertensive-patients": {
+			"TITLE": "Pacientes hipertensos"
+		},
+		"weekly-epidemiological-report": {
+			"TITLE": "Reporte epidemiológico semanal"
+		},
+		"institutional-report-request-section": {
+			"TITLE": "Mis reportes solicitados",
+			"FAILED_TO_GENERATE": "Error al generar: {{errorMessage}}",
+			"table": {
+				"REPORT_TYPE_COLUMN": "Tipo de reporte",
+				"REQUEST_DATE_COLUMN": "Fecha de solicitud",
+				"APPLIED_FILTERS_COLUMN": "Filtros aplicados",
+				"GENERATION_DATE_COLUMN": "Fecha de generación",
+				"INCIDENCE_COLUMN": "Incidencia",
+				"FILE_COLUMN": "Archivo"
+			},
+			"filter-type": {
+				"REPORT_PERIOD": "Período",
+				"INCLUDE_DESCENDANTS": "Incluye descendientes"
+			},
+			"button": {
+				"DOWNLOAD": "Descargar"
+			}
+
+		}
+	}
+}

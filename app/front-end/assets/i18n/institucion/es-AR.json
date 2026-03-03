@@ -1,0 +1,11 @@
+{
+	"institucion": {
+		"home": {
+			"TITLE": "Institución"
+		},
+		"physical-discarge": {
+			"DESCRIPTION_ACTION": "Si realiza el Alta Física la cama quedará Libre y el episodio continuará abierto hasta que se completen los documentos necesarios. {{question}}",
+			"QUESTION_ACTION": "¿Desea confirmar el Alta Física?"
+		}
+	}
+}

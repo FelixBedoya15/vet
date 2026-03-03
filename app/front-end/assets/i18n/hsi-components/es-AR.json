@@ -1,0 +1,201 @@
+{
+	"view-medical-history-button": {
+		"TITLE": "Ver historia clínica"
+	},
+	"temporary-patient": {
+		"TITLE": "Paciente temporal"
+	},
+	"summary-multiple-sign": {
+		"state-signature": {
+			"OUTDATED": "Vencido",
+			"PENDING" : "Pendiente",
+			"REJECTED" : "Rechazado",
+			"SIGNED" : "Firmado"
+		}
+	},
+	"pharmaco-detail": {
+		"PHARMACO": "Fármaco indicado",
+		"UNIT_DOSE": "Dosis / Unidad",
+		"DAY_DOSE": "Dosis / Día",
+		"TREATMENT_DAYS": "Días de tratamiento",
+		"QUANTITY": "Cantidad",
+		"SUGGESTED_COMMERCIAL": "Marca sugerida",
+		"PRESENTATION": "Presentación",
+		"MEDICATION_PACK": "Envases",
+		"INTERVAL": "Intervalo",
+		"OBSERVATIONS": "Observaciones"
+	},
+	"patientLocationComponent": {
+		"NO_DATA": "Sin ubicación definida"
+	},
+	"previous-status-labels": {
+		"PREVIOUS_STATUS": "Estado previo:"
+	},
+	"internment-admission": {
+		"ADMISSION": "Ingreso:",
+		"INTERNED_DAYS": "{{days}} días internado"
+	},
+	"medical-coverage-episode": {
+		"TITLE": "Cobertura del episodio",
+		"NO_COVERAGE": "Sin cobertura",
+		"AFFILIATE_NUMBER": "N°: {{affiliateNumber}}"
+	},
+	"episode-pending-state": {
+		"PENDING_ADMINISTRATIVE_DISCHARGE": "Alta administrativa pendiente",
+		"PENDING_MEDICAL_DISCHARGE": "Alta médica pendiente",
+		"PENDING_EPICRISIS": "Epicrisis pendiente",
+		"PENDING_EVOLUTION": "Evolución pendiente",
+		"PENDING_ANAMNESIS": "Evaluación de ingreso pendiente"
+	},
+	"edit-button": {
+		"EDIT": "Editar"
+	},
+	"delete-button": {
+		"DELETE": "Eliminar"
+	},
+	"service-typeahead": {
+		"LABEL": "Servicio",
+		"PLACEHOLDER": "Seleccionar servicio"
+	},
+	"patient-summary": {
+		"NO_INFORMATION": "Sin información"
+	},
+	"two-factor-authentication-user-list": {
+		"USERS": "Usuarios:",
+		"NO_USERS": "No hay usuarios para mostrar"
+	},
+	"two-factor-authentication-role-list": {
+		"DOMAIN_TITLE": "Roles de dominio para el doble factor de autenticación",
+		"INSTITUTION_TITLE": "Roles institucionales para el doble factor de autenticación",
+		"ENABLE_2FA": "Habilitar 2FA",
+		"ENABLE_SUCCESS": "Se ha habilitado el doble factor de autenticación para el rol {{role}}",
+		"DISABLE_SUCCESS": "Se ha deshabilitado el doble factor de autenticación para el rol {{role}}"
+	},
+	"two-factor-authentication-block-popup": {
+		"MESSAGE": "El usuario requiere doble factor de autenticación para acceder a este recurso",
+		"actions": {
+			"2FA_CFG": "Configurar autenticación por doble factor"
+		}
+	},
+	"add-practice-procedure-popup": {
+		"ADD_PRACTICE_PROCEDURE": "Agregar práctica/procedimiento"
+	},
+	"protected-appointment-icon": {
+		"REGULATION": "Protegido por regulación",
+		"CARE_LINE": "Protegido por línea de cuidado",
+		"EXTERNAL": "Protegido por reserva online"
+	},
+	"concepts-panel": {
+		"terminology-group-selector": {
+			"TITLE": "Categoría de estudio",
+			"PLACEHOLDER": "Seleccionar categoría"
+		},
+		"ONLY_INSTITUTION_STUDIES": "Sólo ver estudios incluidos en la institución",
+		"DEBOUNCE_FILTER_SEARCH": "Buscar estudio",
+		"ALL_PROCEDURES": "Todos los procedimientos"
+	},
+	"concepts-list-to-add": {
+		"CONCEPTS_QUANTITY": "{{quantity}} estudios encontrados",
+		"MAX_QUANTITY_ALERT": "La opción de \"Agregar todos\" se encuentra deshabilitada porque la cantidad de estudios agregados supera el límite de 1500. Use la búsqueda o filtros para acotar la lista.",
+		"actions": {
+			"ADD_ALL": "+ Agregar todos"
+		}
+	},
+	"add-concept": {
+		"actions": {
+			"ADD": "+ Agregar"
+		}
+	},
+	"concepts-list-added": {
+		"ADDED_STUDIES": "Estudios agregados ({{quantity}})"
+	},
+	"transcription": {
+		"TRANSCRIBED": "Transcrita"
+	},
+	"create-transcription": {
+		"TITLE": "Transcribir solicitud de referencia",
+		"PATIENT_VALIDATION_STEP": "Validación de paciente",
+		"REFERENCE_ORIGIN_STEP": "Origen de referencia",
+		"REFERENCE_DESTINATION_STEP": "Destino de referencia",
+		"TRANSCRIPTION_SUCCESSFULL": "La referencia transcrita fue creada con éxito",
+		"TRANSCRIPTION_ERROR": "Hubo un error, la referencia trascrita no pudo crearse",
+		"stepper-patient": {
+			"IDENTIFICATION_TYPE": "Tipo",
+			"NAME": "Nombre",
+			"LAST_NAME": "Apellido",
+			"IDENTIFICATION_NUMBER": "Nro de documento",
+			"GENDER": "Sexo",
+			"PATIENT_ID": "ID Paciente",
+			"SELECT_PATIENT": "Seleccione un paciente",
+			"PATIENT_NOT_FOUND_MESSAGE": "No se encontraron pacientes con los campos ingresados",
+			"CREATE_NEW_PATIENT": "Crear nuevo paciente"
+		},
+		"stepper-reference-origin": {
+			"PROFESSIONAL_NAME_INPUT": "Nombre y apellido de profesional solicitante",
+			"INSTITUTION_NETWORK_INPUT": "Institución o red origen",
+			"PROBLEM_INPUT": "Problemas asociados",
+			"NEW_PROBLEM": "Agregar nuevo problema",
+			"add-problem": {
+				"SEARCH_PROBLEM_PLACEHOLDER": "Buscar problema...",
+				"ADD_PROBLEM": "Agregar problema"
+			},
+			"PRIORITY_INPUT": "Criterio de priorización",
+			"CONTACT_INPUT": "Contacto del paciente",
+			"PHONE_PREFIX": "Prefijo",
+			"PHONE_NUMBER": "Número"
+		},
+		"stepper-reference-destination": {
+			"DESTINATION": "Destino",
+			"SEARCH_BY_CARE_LINE": "¿Solicitar por línea de cuidado?",
+			"CARE_LINE_PLACEHOLDER": "Línea de cuidado",
+			"NO_CARE_LINES": "No existen líneas de cuidado para la solicitud",
+			"REFERENCE_TYPE": "Tipo de referencia",
+			"CONSULTATION": "Consulta",
+			"PLACEHOLDER_SPECIALITY": "Especialidad",
+			"PLACEHOLDER_SPECIALITY_OPTIONAL": "Especialidad (Opcional)",
+			"PRACTICE_PROCEDURE": "Práctica/procedimiento",
+			"STUDY_CATEGORY": "Categoría de estudios",
+			"RECEIVER": "Receptor",
+			"DEPARTMENT": "Partido (Opcional)",
+			"PLACEHOLDER_INSTITUTION": "Institución (Opcional)",
+			"PROTECTED_APPOINTMENT": " turnos protegidos disponibles para ser asignados por red de atención en los próximos 60 días.",
+            "APPOINTMENT": " turnos disponibles para ser asignados por la institución destino en los próximos 60 días.",
+			"REGULATION_REQUIRED": "Este tipo de solicitud pasará por un proceso de aprobación previo a ser asignado.",
+			"CONFIRM_TRANSCRIPTION": "Confirmar transcripción"
+		},
+		"REFERENCE_STEP": "Origen de referencia"
+	},
+	"update-appointment-order": {
+		"steps": {
+			"PATIENT_INFORMATION": "Información de paciente",
+			"STUDIES": "Estudios",
+			"TRANSCRIBE_ORDER": "Transcribir orden"
+		},
+		"ORDER_STUDIES_ALERT": "{{quantity}} estudios de la orden no pueden realizarse en esta agenda: - {{studies}}",
+		"BACK_TO_PATIENT_DETAIL": "Volver a detalle de paciente",
+		"DATA_UPDATED": "Los datos del turno fueron actualizados"
+	},
+	"appointment-order-type-options": {
+		"MEDICAL_ORDER": "Orden médica",
+		"SELECT_MEDICAL_ORDER": "Seleccionar orden médica",
+		"SELECT_ORDER": "Seleccionar orden",
+		"TRANSCRIBE_ORDER": "Transcribir orden",
+		"UPLOAD_LATER": "Cargar más tarde",
+		"NOT_REQUIRED": "No requiere"
+	},
+	"update-appointment-patient-information-order": {
+		"UPDATE_MEDICAL_COVERAGE": "Actualizar cobertura",
+		"MEDICAL_COVERAGES_UPDATED_CORRECTLY": "Las coberturas fueron actualizadas correctamente",
+		"ERROR_WHILE_UPDATING_MEDICAL_COVERAGES": "Ocurrió un error al actualizar las coberturas"
+	},
+	"transcribe-order": {
+		"ENTER_PROFESSIONAL_APPLICANT": "Ingrese profesional solicitante",
+		"ENTER_INSTITUTION_APPLICANT": "Ingrese institución solicitante",
+		"ENTER_ASSOCIATE_PROBLEM": "Ingrese problema asociado",
+		"ORDER_ATTACHMENT": "Adjuntar orden",
+		"ORDER_ATTACHMENT_EXTENSION_ERROR": "Sólo se admiten archivos en formato jpg, jpeg, png, webp o pdf"
+	},
+	"study-category-selector": {
+		"SELECT_STUDY_CATEGORY": "Seleccione categoría de estudio"
+	}
+}

@@ -1,0 +1,86 @@
+{
+    "call-center": {
+        "home": {
+            "TITLE": "Centro de llamadas"
+        },
+        "blocked-appointments": {
+            "HAS_APPOINTMENTS": "Tiene una agenda",
+            "DATE_BLOCKED": "bloqueada desde {{dateFrom}} hasta {{dateTo}}",
+            "HOURS_BLOCKED": "de {{horaMin}} a {{horaMax}}",
+            "MOTIVE": "Motivo"
+        },
+        "search_appointments": {
+            "SUBTITLE": "Seleccione los criterios para la búsqueda de turnos disponibles en el centro de llamadas:",
+            "DEPARTMENT": "Partido/Departamento",
+            "INSTITUTION": "Institución",
+            "SPECIALTY": "Especialidad",
+            "PROFESSIONAL": "Profesional",
+            "PRACTICE/PROCEDURE": "Práctica/Procedimiento",
+            "DATE_RANGE": "Rango de fecha",
+            "SEARCH": "Buscar turnos",
+            "INVALID_SEARCH_SPECIALTY":"Ingrese al menos uno de los siguientes campos: Especialidad o Profesional",
+            "PERIOD_VALIDATIONS": "El rango de fechas no debe superar los {{max}} días",
+            "BOOKING_ASSIGN": "Asignar reserva",
+            "SEARCH_BY": "Búsqueda por",
+            "ATTENTION_TYPE": "Tipo de atención",
+            "SERVICE": "Servicio",
+            "SPECIALTY_PROFESSIONAL": "Especialidad o profesional",
+            "CONSULTATION": "Consulta",
+            "PRACTICE_PROCEDURE": "Práctica / Procedimiento"
+        },
+        "new-appointment": {
+            "TITLE": "Asignar reserva",
+            "SUCCESS": "Turno creado exitosamente",
+            "ERROR": "Hubo un error al crear el turno",
+            "custom-form": {
+                "full-name": {
+                    "TITLE": "Nombre y apellido",
+                    "PLACEHOLDER_NAME": "Nombre",
+                    "PLACEHOLDER_LAST_NAME": "Apellido"
+                },
+                "gender": {
+                    "TITLE": "Sexo: {{gender}}"
+                },
+                "phone": {
+                    "TITLE": "Teléfono",
+                    "PLACEHOLDER_PREFIX": "Prefijo",
+                    "PLACEHOLDER_NUMBER": "Número"
+                },
+                "email": {
+                    "TITLE": "Mail"
+                }
+            },
+            "patient-validation": {
+                "TITLE": "Validación de paciente",
+                "DOCUMENT_TYPE": "Tipo de documento",
+                "IDENTIFICATION_NUMBER": "Nº de documento",
+                "GENDER": "Sexo",
+                "CONTINUE_WITHOUT_VALIDATION": "Continuar sin validar",
+                "INVALID_PATIENT": "El paciente no pudo validarse"
+            },
+            "patient-information": {
+                "TITLE": "Información de paciente",
+                "BIRTH_DATE": "Fecha de nacimiento",
+                "actions": {
+                    "SHOW_HISTORY": "Ver historial de turnos y reservas"
+                }
+            },
+            "booking-history": {
+                "TITLE": "Historial de reservas y turnos de {{patient}}",
+                "NO_DATA": "Sin reservas ni turnos asignados a la fecha"
+            }
+        },
+        "success-booking": {
+            "TITLE": "Reserva realizada",
+            "DATE": "Fecha",
+            "PATIENT": "Paciente",
+            "DOCTOR": "Profesional",
+            "INSTITUTION": "Institución",
+            "SPECIALTY": "Especialidad",
+            "HOUR": "Hora",
+            "actions": {
+                "PRINT": "Imprimir reserva"
+            }
+        }
+    }
+}
