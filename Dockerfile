@@ -1,14 +1,13 @@
-# Usa una imagen base de Java 11 (que es la que suele usar HSI)
-FROM openjdk:11-jre-slim
+# Cambiamos a una imagen de Java 11 más estable y actualizada
+FROM eclipse-temurin:11-jre-focal
 
-# Crea el directorio de la aplicación
 WORKDIR /app
 
-# Copia el archivo hospital.jar que subimos con LFS
+# Copiamos el archivo hospital.jar que subimos con LFS
 COPY app/hospital.jar hospital.jar
 
-# Expone el puerto por defecto de Spring Boot
+# Exponemos el puerto
 EXPOSE 8080
 
-# Comando para iniciar la aplicación
+# Comando para iniciar
 CMD ["java", "-jar", "hospital.jar"]
